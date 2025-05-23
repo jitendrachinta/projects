@@ -1,0 +1,2402 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Bro's Restaurant - Full Menu</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="proj.css"/>
+
+</head>
+<body>
+  <!-- Main Menu Page Content -->
+  <div class="hero">
+    <h1 class="restaurant-name">🍽️ Bro's Restaurant ☠️ 🍽️</h1>
+    <img src="chef_images.gif" alt="Chef Animation" class="gif" />
+  </div>
+
+  <!-- Navigation Buttons -->
+  <div class="menu-nav">
+    <button onclick="showSection('veg-starters')">Veg Starters</button>
+    <button onclick="showSection('Non Veg Starters')">Non-Veg Starters</button>
+    <button onclick="showSection('Soups and Salads')">Soups & Salads</button>
+    <button onclick="showSection('Veg Biryani')">Veg Biryani</button>
+    <button onclick="showSection('Non Veg Biryani')">Non-Veg Biryani</button>
+    <button onclick="showSection('indian-special')">Indian Special</button>
+    <button onclick="showSection('chinese-special')">Chinese Special</button>
+    <button onclick="showSection('continental')">Continental Special</button>
+    <button onclick="showSection('breads')">Breads</button>
+    <button onclick="showSection('desserts')">Desserts</button>
+    <button onclick="showSection('juices')">Juices</button>
+    <button onclick="showSection('mocktails')">Mocktails</button>
+    <button onclick="showSection('milkshakes')">Milkshakes</button>
+    <button onclick="showSection('cool-beverages')">Cool Beverages</button>
+    <button onclick="showSection('combo-meals')">Combo Meals</button>
+  </div>
+
+  <!-- VEG STARTERS -->
+  <section id="veg-starters" class="menu-section" style="display: block;">
+    <h2>Veg Starters</h2>
+    <div class="menu-container">
+      <div class="menu-item">
+        <img src="Manchurian (Dry).jpg" alt="Veg Manchurian">
+        <div class="menu-item-info">
+          <h3 class="menu-item-name">Veg Manchurian</h3>
+          <p class="menu-item-description">Crispy vegetable balls in tangy sauce.</p>
+          <p class="menu-item-price">₹120</p>
+          <button class="order-now-btn" onclick="addToBasket('Veg Manchurian', 120)">Order Now</button>
+        </div>
+      </div>
+
+      <div class="menu-item">
+        <img src="Chilli Chicken.webp" alt="Chilli Paneer">
+        <div class="menu-item-info">
+          <h3 class="menu-item-name">Chilli Paneer</h3>
+          <p class="menu-item-description">Spicy paneer cubes tossed with capsicum.</p>
+          <p class="menu-item-price">₹130</p>
+          <button class="order-now-btn" onclick="addToBasket('Chilli Paneer', 130)">Order Now</button>
+        </div>
+      </div>
+
+      <div class="menu-item">
+        <img src="Honey Chilli Potato.jpg" alt="Honey Chilli Potato">
+        <div class="menu-item-info">
+          <h3 class="menu-item-name">Honey Chilli Potato</h3>
+          <p class="menu-item-description">Crispy potatoes tossed in honey and chilli sauce.</p>
+          <p class="menu-item-price">₹110</p>
+          <button class="order-now-btn" onclick="addToBasket('Honey Chilli Potato', 110)">Order Now</button>
+        </div>
+      </div>
+
+      <div class="menu-item">
+        <img src="Vegetable Spring Rolls.webp" alt="Veg Spring Rolls">
+        <div class="menu-item-info">
+          <h3 class="menu-item-name">Veg Spring Rolls</h3>
+          <p class="menu-item-description">Crunchy rolls filled with spicy veggies.</p>
+          <p class="menu-item-price">₹100</p>
+          <button class="order-now-btn" onclick="addToBasket('Veg Spring Rolls', 100)">Order Now</button>
+        </div>
+      </div>
+
+      <div class="menu-item">
+        <img src="Gobi 65.jpeg" alt="Gobi 65">
+        <div class="menu-item-info">
+          <h3 class="menu-item-name">Gobi 65</h3>
+          <p class="menu-item-description">Deep-fried cauliflower in South Indian style.</p>
+          <p class="menu-item-price">₹110</p>
+          <button class="order-now-btn" onclick="addToBasket('Gobi 65', 110)">Order Now</button>
+        </div>
+      </div>
+
+      <div class="menu-item">
+        <img src="Stuffed Mushrooms.jpg" alt="Stuffed Mushroom">
+        <div class="menu-item-info">
+          <h3 class="menu-item-name">Stuffed Mushroom</h3>
+          <p class="menu-item-description">Cheesy stuffed mushrooms grilled to perfection.</p>
+          <p class="menu-item-price">₹150</p>
+          <button class="order-now-btn" onclick="addToBasket('Stuffed Mushroom', 150)">Order Now</button>
+        </div>
+      </div>
+
+      <div class="menu-item">
+        <img src="Crispy Corn.jpg" alt="Crispy Corn">
+        <div class="menu-item-info">
+          <h3 class="menu-item-name">Crispy Corn</h3>
+          <p class="menu-item-description">Fried corn kernels tossed with spices.</p>
+          <p class="menu-item-price">₹100</p>
+          <button class="order-now-btn" onclick="addToBasket('Crispy Corn', 100)">Order Now</button>
+        </div>
+      </div>
+
+      <div class="menu-item">
+        <img src="Cheese Balls (4–6 pcs).jpg" alt="Cheese Balls">
+        <div class="menu-item-info">
+          <h3 class="menu-item-name">Cheese Balls</h3>
+          <p class="menu-item-description">Crispy fried cheese-filled balls.</p>
+          <p class="menu-item-price">₹120</p>
+          <button class="order-now-btn" onclick="addToBasket('Cheese Balls', 120)">Order Now</button>
+        </div>
+      </div>
+
+      <div class="menu-item">
+        <img src="alooThikka.webp" alt="Aloo Tikki">
+        <div class="menu-item-info">
+          <h3 class="menu-item-name">Aloo Tikki</h3>
+          <p class="menu-item-description">Spiced potato cutlets served with chutney.</p>
+          <p class="menu-item-price">₹90</p>
+          <button class="order-now-btn" onclick="addToBasket('Aloo Tikki', 90)">Order Now</button>
+        </div>
+      </div>
+
+      <div class="menu-item">
+        <img src="Paneer Popcorn.jpg" alt="Paneer Popcorn">
+        <div class="menu-item-info">
+          <h3 class="menu-item-name">Paneer Popcorn</h3>
+          <p class="menu-item-description">Bite-sized paneer coated with crispy crumbs.</p>
+          <p class="menu-item-price">₹130</p>
+          <button class="order-now-btn" onclick="addToBasket('Paneer Popcorn', 130)">Order Now</button>
+        </div>
+      </div>
+
+      <div class="menu-item">
+        <img src="Mini Veg Cutlets (4 pcs).webp" alt="Veg Cutlet">
+        <div class="menu-item-info">
+          <h3 class="menu-item-name">Veg Cutlet</h3>
+          <p class="menu-item-description">Mixed vegetable patties, shallow-fried.</p>
+          <p class="menu-item-price">₹95</p>
+          <button class="order-now-btn" onclick="addToBasket('Veg Cutlet', 95)">Order Now</button>
+        </div>
+      </div>
+
+      <div class="menu-item">
+        <img src="Mushroom Tikka.png" alt="Mushroom Tikka">
+        <div class="menu-item-info">
+          <h3 class="menu-item-name">Mushroom Tikka</h3>
+          <p class="menu-item-description">Grilled marinated mushrooms on skewers.</p>
+          <p class="menu-item-price">₹140</p>
+          <button class="order-now-btn" onclick="addToBasket('Mushroom Tikka', 140)">Order Now</button>
+        </div>
+      </div>
+
+      <div class="menu-item">
+        <img src="Moong Dal Pakoda.jpg" alt="Moong Dal Pakoda">
+        <div class="menu-item-info">
+          <h3 class="menu-item-name">Moong Dal Pakoda</h3>
+          <p class="menu-item-description">Golden lentil fritters with spicy kick.</p>
+          <p class="menu-item-price">₹85</p>
+          <button class="order-now-btn" onclick="addToBasket('Moong Dal Pakoda', 85)">Order Now</button>
+        </div>
+      </div>
+
+      <div class="menu-item">
+        <img src="Veg Lollipop.jpg" alt="Veg Lollipop">
+        <div class="menu-item-info">
+          <h3 class="menu-item-name">Veg Lollipop</h3>
+          <p class="menu-item-description">Crispy vegetable balls on sticks.</p>
+          <p class="menu-item-price">₹105</p>
+          <button class="order-now-btn" onclick="addToBasket('Veg Lollipop', 105)">Order Now</button>
+        </div>
+      </div>
+    </div>
+
+
+  </div>
+
+      <div class="menu-item" data-name="Paneer Tikka" data-price="120">
+        <img src="Paneer Tikka.webp" alt="Paneer Tikka" />
+        <div class="details">
+          <h3>Paneer Tikka</h3>
+          <p>Chunks of paneer marinated in spices and grilled.</p>
+          <span class="price">₹120</span>
+          <button>Order Now</button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+ <!-- NON-VEG STARTERS -->
+  <section id="Non Veg Starters" class="menu-section" style="display: none;">
+  <h2>Non-Veg Starters</h2>
+  <div class="menu-container">
+    <div class="menu-section">
+
+      <div class="menu-item">
+        <img src="Chicken 65.jpg" alt="Chicken 65">
+        <div class="menu-item-info">
+          <h3 class="menu-item-name">Chicken 65</h3>
+          <p class="menu-item-description">Spicy deep-fried chicken bites, South Indian style.</p>
+          <p class="menu-item-price">₹150</p>
+          <button class="order-now-btn" onclick="addToBasket('Chicken 65', 150)">Order Now</button>
+        </div>
+      </div>
+
+      <div class="menu-item">
+        <img src="Chicken Lollipop.jpg" alt="Chicken Lollipop">
+        <div class="menu-item-info">
+          <h3 class="menu-item-name">Chicken Lollipop</h3>
+          <p class="menu-item-description">Frenched chicken wings, crispy outside, juicy inside.</p>
+          <p class="menu-item-price">₹160</p>
+          <button class="order-now-btn" onclick="addToBasket('Chicken Lollipop', 160)">Order Now</button>
+        </div>
+      </div>
+
+      <div class="menu-item">
+        <img src="Tandoori Chicken.jpg" alt="Tandoori Chicken">
+        <div class="menu-item-info">
+          <h3 class="menu-item-name">Tandoori Chicken</h3>
+          <p class="menu-item-description">Char-grilled chicken marinated in spicy yogurt mix.</p>
+          <p class="menu-item-price">₹180</p>
+          <button class="order-now-btn" onclick="addToBasket('Tandoori Chicken', 180)">Order Now</button>
+        </div>
+      </div>
+
+      <div class="menu-item">
+        <img src="Fish Fry.jpg" alt="Fish Fry">
+        <div class="menu-item-info">
+          <h3 class="menu-item-name">Fish Fry</h3>
+          <p class="menu-item-description">Crispy shallow-fried fish fillets with masala crust.</p>
+          <p class="menu-item-price">₹170</p>
+          <button class="order-now-btn" onclick="addToBasket('Fish Fry', 170)">Order Now</button>
+        </div>
+      </div>
+
+      <div class="menu-item">
+        <img src="Prawns Fry.jpg" alt="Prawns Fry">
+        <div class="menu-item-info">
+          <h3 class="menu-item-name">Prawns Fry</h3>
+          <p class="menu-item-description">Juicy prawns sautéed with spicy coastal masala.</p>
+          <p class="menu-item-price">₹190</p>
+          <button class="order-now-btn" onclick="addToBasket('Prawns Fry', 190)">Order Now</button>
+        </div>
+      </div>
+
+      <div class="menu-item">
+        <img src="Egg Masala.webp" alt="Egg Masala">
+        <div class="menu-item-info">
+          <h3 class="menu-item-name">Egg Masala</h3>
+          <p class="menu-item-description">Boiled eggs simmered in onion-tomato gravy.</p>
+          <p class="menu-item-price">₹100</p>
+          <button class="order-now-btn" onclick="addToBasket('Egg Masala', 100)">Order Now</button>
+        </div>
+      </div>
+
+      <div class="menu-item">
+        <img src="Keema Balls.jpg" alt="Keema Balls">
+        <div class="menu-item-info">
+          <h3 class="menu-item-name">Keema Balls</h3>
+          <p class="menu-item-description">Minced meat balls deep-fried with bold spices.</p>
+          <p class="menu-item-price">₹140</p>
+          <button class="order-now-btn" onclick="addToBasket('Keema Balls', 140)">Order Now</button>
+        </div>
+      </div>
+
+      <div class="menu-item">
+        <img src="Mutton Pepper Fry.jpg" alt="Mutton Pepper Fry">
+        <div class="menu-item-info">
+          <h3 class="menu-item-name">Mutton Pepper Fry</h3>
+          <p class="menu-item-description">Tender mutton chunks tossed in black pepper masala.</p>
+          <p class="menu-item-price">₹200</p>
+          <button class="order-now-btn" onclick="addToBasket('Mutton Pepper Fry', 200)">Order Now</button>
+        </div>
+      </div>
+
+      <div class="menu-item">
+        <img src="Egg Roll.jpg" alt="Egg Roll">
+        <div class="menu-item-info">
+          <h3 class="menu-item-name">Egg Roll</h3>
+          <p class="menu-item-description">Stuffed egg wrap with veggies and sauces.</p>
+          <p class="menu-item-price">₹90</p>
+          <button class="order-now-btn" onclick="addToBasket('Egg Roll', 90)">Order Now</button>
+        </div>
+      </div>
+
+      <div class="menu-item">
+        <img src="chicken Thikka.jpg" alt="Chicken Tikka">
+        <div class="menu-item-info">
+          <h3 class="menu-item-name">Chicken Tikka</h3>
+          <p class="menu-item-description">Grilled boneless chicken in aromatic tikka masala.</p>
+          <p class="menu-item-price">₹170</p>
+          <button class="order-now-btn" onclick="addToBasket('Chicken Tikka', 170)">Order Now</button>
+        </div>
+      </div>
+
+      <div class="menu-item">
+        <img src="Fish Fingers.jpg" alt="Fish Fingers">
+        <div class="menu-item-info">
+          <h3 class="menu-item-name">Fish Fingers</h3>
+          <p class="menu-item-description">Breaded fish strips, crispy and golden fried.</p>
+          <p class="menu-item-price">₹160</p>
+          <button class="order-now-btn" onclick="addToBasket('Fish Fingers', 160)">Order Now</button>
+        </div>
+      </div>
+
+      <div class="menu-item">
+        <img src="Kali Mirch Chicken.webp" alt="Kali Mirch Chicken">
+        <div class="menu-item-info">
+          <h3 class="menu-item-name">Kali Mirch Chicken</h3>
+          <p class="menu-item-description">Chicken in creamy black pepper sauce.</p>
+          <p class="menu-item-price">₹160</p>
+          <button class="order-now-btn" onclick="addToBasket('Kali Mirch Chicken', 160)">Order Now</button>
+        </div>
+      </div>
+
+      <div class="menu-item">
+        <img src="Mutton Cutlet.jpg" alt="Mutton Cutlet">
+        <div class="menu-item-info">
+          <h3 class="menu-item-name">Mutton Cutlet</h3>
+          <p class="menu-item-description">Spiced minced mutton cutlets, shallow-fried.</p>
+          <p class="menu-item-price">₹180</p>
+          <button class="order-now-btn" onclick="addToBasket('Mutton Cutlet', 180)">Order Now</button>
+        </div>
+      </div>
+
+      <div class="menu-item">
+        <img src="Shami Kebab.jpg" alt="Shami Kebab">
+        <div class="menu-item-info">
+          <h3 class="menu-item-name">Shami Kebab</h3>
+          <p class="menu-item-description">Minced meat patties blended with lentils & spices.</p>
+          <p class="menu-item-price">₹160</p>
+          <button class="order-now-btn" onclick="addToBasket('Shami Kebab', 160)">Order Now</button>
+        </div>
+      </div>
+
+      <div class="menu-item">
+        <img src="Malai Tikka.jpg" alt="Malai Tikka">
+        <div class="menu-item-info">
+          <h3 class="menu-item-name">Malai Tikka</h3>
+          <p class="menu-item-description">Soft chicken cubes marinated in creamy marinade.</p>
+          <p class="menu-item-price">₹170</p>
+          <button class="order-now-btn" onclick="addToBasket('Malai Tikka', 170)">Order Now</button>
+        </div>
+      </div>
+
+    </div>
+  </div> 
+  </section> 
+  
+ <!--Soups and Salads-->
+  <section id="Soups and Salads" class="menu-section" style="display: none;">
+  <h2>Soups and Salads</h2>
+  <div class="menu-container">
+    <div class="menu-section">
+
+       <div class="menu-item">
+        <img src="Chicken 65.jpg" alt="Chicken 65">
+        <div class="menu-item-info">
+          <h3 class="menu-item-name">Chicken 65</h3>
+          <p class="menu-item-description">Spicy deep-fried chicken bites, South Indian style.</p>
+          <p class="menu-item-price">₹150</p>
+          <button class="order-now-btn" onclick="addToBasket('Chicken 65', 150)">Order Now</button>
+        </div>
+      </div>
+
+      <div class="menu-item">
+        <img src="Chicken Lollipop.jpg" alt="Chicken Lollipop">
+        <div class="menu-item-info">
+          <h3 class="menu-item-name">Chicken Lollipop</h3>
+          <p class="menu-item-description">Frenched chicken wings, crispy outside, juicy inside.</p>
+          <p class="menu-item-price">₹160</p>
+          <button class="order-now-btn" onclick="addToBasket('Chicken Lollipop', 160)">Order Now</button>
+        </div>
+      </div>
+
+      <div class="menu-item">
+        <img src="Tandoori Chicken.jpg" alt="Tandoori Chicken">
+        <div class="menu-item-info">
+          <h3 class="menu-item-name">Tandoori Chicken</h3>
+          <p class="menu-item-description">Char-grilled chicken marinated in spicy yogurt mix.</p>
+          <p class="menu-item-price">₹180</p>
+          <button class="order-now-btn" onclick="addToBasket('Tandoori Chicken', 180)">Order Now</button>
+        </div>
+      </div>
+
+      <div class="menu-item">
+        <img src="Fish Fry.jpg" alt="Fish Fry">
+        <div class="menu-item-info">
+          <h3 class="menu-item-name">Fish Fry</h3>
+          <p class="menu-item-description">Crispy shallow-fried fish fillets with masala crust.</p>
+          <p class="menu-item-price">₹170</p>
+          <button class="order-now-btn" onclick="addToBasket('Fish Fry', 170)">Order Now</button>
+        </div>
+      </div>
+
+      <div class="menu-item">
+        <img src="Prawns Fry.jpg" alt="Prawns Fry">
+        <div class="menu-item-info">
+          <h3 class="menu-item-name">Prawns Fry</h3>
+          <p class="menu-item-description">Juicy prawns sautéed with spicy coastal masala.</p>
+          <p class="menu-item-price">₹190</p>
+          <button class="order-now-btn" onclick="addToBasket('Prawns Fry', 190)">Order Now</button>
+        </div>
+      </div>
+
+      <div class="menu-item">
+        <img src="Egg Masala.webp" alt="Egg Masala">
+        <div class="menu-item-info">
+          <h3 class="menu-item-name">Egg Masala</h3>
+          <p class="menu-item-description">Boiled eggs simmered in onion-tomato gravy.</p>
+          <p class="menu-item-price">₹100</p>
+          <button class="order-now-btn" onclick="addToBasket('Egg Masala', 100)">Order Now</button>
+        </div>
+      </div>
+
+      <div class="menu-item">
+        <img src="Keema Balls.jpg" alt="Keema Balls">
+        <div class="menu-item-info">
+          <h3 class="menu-item-name">Keema Balls</h3>
+          <p class="menu-item-description">Minced meat balls deep-fried with bold spices.</p>
+          <p class="menu-item-price">₹140</p>
+          <button class="order-now-btn" onclick="addToBasket('Keema Balls', 140)">Order Now</button>
+        </div>
+      </div>
+
+      <div class="menu-item">
+        <img src="Mutton Pepper Fry.jpg" alt="Mutton Pepper Fry">
+        <div class="menu-item-info">
+          <h3 class="menu-item-name">Mutton Pepper Fry</h3>
+          <p class="menu-item-description">Tender mutton chunks tossed in black pepper masala.</p>
+          <p class="menu-item-price">₹200</p>
+          <button class="order-now-btn" onclick="addToBasket('Mutton Pepper Fry', 200)">Order Now</button>
+        </div>
+      </div>
+
+      <div class="menu-item">
+        <img src="Egg Roll.jpg" alt="Egg Roll">
+        <div class="menu-item-info">
+          <h3 class="menu-item-name">Egg Roll</h3>
+          <p class="menu-item-description">Stuffed egg wrap with veggies and sauces.</p>
+          <p class="menu-item-price">₹90</p>
+          <button class="order-now-btn" onclick="addToBasket('Egg Roll', 90)">Order Now</button>
+        </div>
+      </div>
+
+      <div class="menu-item">
+        <img src="chicken Thikka.jpg" alt="Chicken Tikka">
+        <div class="menu-item-info">
+          <h3 class="menu-item-name">Chicken Tikka</h3>
+          <p class="menu-item-description">Grilled boneless chicken in aromatic tikka masala.</p>
+          <p class="menu-item-price">₹170</p>
+          <button class="order-now-btn" onclick="addToBasket('Chicken Tikka', 170)">Order Now</button>
+        </div>
+      </div>
+
+      <div class="menu-item">
+        <img src="Fish Fingers.jpg" alt="Fish Fingers">
+        <div class="menu-item-info">
+          <h3 class="menu-item-name">Fish Fingers</h3>
+          <p class="menu-item-description">Breaded fish strips, crispy and golden fried.</p>
+          <p class="menu-item-price">₹160</p>
+          <button class="order-now-btn" onclick="addToBasket('Fish Fingers', 160)">Order Now</button>
+        </div>
+      </div>
+
+      <div class="menu-item">
+        <img src="Kali Mirch Chicken.webp" alt="Kali Mirch Chicken">
+        <div class="menu-item-info">
+          <h3 class="menu-item-name">Kali Mirch Chicken</h3>
+          <p class="menu-item-description">Chicken in creamy black pepper sauce.</p>
+          <p class="menu-item-price">₹160</p>
+          <button class="order-now-btn" onclick="addToBasket('Kali Mirch Chicken', 160)">Order Now</button>
+        </div>
+      </div>
+
+      <div class="menu-item">
+        <img src="Mutton Cutlet.jpg" alt="Mutton Cutlet">
+        <div class="menu-item-info">
+          <h3 class="menu-item-name">Mutton Cutlet</h3>
+          <p class="menu-item-description">Spiced minced mutton cutlets, shallow-fried.</p>
+          <p class="menu-item-price">₹180</p>
+          <button class="order-now-btn" onclick="addToBasket('Mutton Cutlet', 180)">Order Now</button>
+        </div>
+      </div>
+
+      <div class="menu-item">
+        <img src="Shami Kebab.jpg" alt="Shami Kebab">
+        <div class="menu-item-info">
+          <h3 class="menu-item-name">Shami Kebab</h3>
+          <p class="menu-item-description">Minced meat patties blended with lentils & spices.</p>
+          <p class="menu-item-price">₹160</p>
+          <button class="order-now-btn" onclick="addToBasket('Shami Kebab', 160)">Order Now</button>
+        </div>
+      </div>
+
+      <div class="menu-item">
+        <img src="Malai Tikka.jpg" alt="Malai Tikka">
+        <div class="menu-item-info">
+          <h3 class="menu-item-name">Malai Tikka</h3>
+          <p class="menu-item-description">Soft chicken cubes marinated in creamy marinade.</p>
+          <p class="menu-item-price">₹170</p>
+          <button class="order-now-btn" onclick="addToBasket('Malai Tikka', 170)">Order Now</button>
+        </div>
+      </div>
+
+    </div>
+  </div> 
+  </section> 
+ 
+ <!-- Veg Biryani -->
+  <section id="Veg Biryani" class="menu-section" style="display: none;">
+  <h2>Veg Biryani</h2>
+  <div class="menu-container">
+    <div class="menu-section">
+
+       <div class="menu-item">
+        <img src="Aloo Biryani.jpg" alt="Aloo Biryani" class="menu-item-image"/>
+        <div class="menu-item-details">
+          <span class="menu-item-name">Aloo Biryani</span>
+          <span class="menu-item-price">₹120</span>
+          <p class="menu-item-description">Potato-based biryani seasoned with aromatic spices.</p>
+          <button class="order-now-btn" onclick="addToBasket('Aloo Biryani', 120)">Order Now</button>
+        </div>
+      </div>
+
+      <div class="menu-item">
+        <img src="Classic Veg Biryani.jpg" alt="Classic Veg Biryani" class="menu-item-image"/>
+        <div class="menu-item-details">
+          <span class="menu-item-name">Classic Veg Biryani</span>
+          <span class="menu-item-price">₹140</span>
+          <p class="menu-item-description">Aromatic basmati rice cooked with fresh vegetables and spices.</p>
+          <button class="order-now-btn" onclick="addToBasket('Classic Veg Biryani', 140)">Order Now</button>
+        </div>
+      </div>
+
+      <div class="menu-item">
+        <img src="Corn Biryani.webp" alt="Corn Biryani" class="menu-item-image"/>
+        <div class="menu-item-details">
+          <span class="menu-item-name">Corn Biryani</span>
+          <span class="menu-item-price">₹150</span>
+          <p class="menu-item-description">Sweet corn kernels with masala-infused rice.</p>
+          <button class="order-now-btn" onclick="addToBasket('Corn Biryani', 150)">Order Now</button>
+        </div>
+      </div>
+
+      <div class="menu-item">
+        <img src="Hyderabadi Veg Biryani.jpg" alt="Hyderabadi Veg Biryani" class="menu-item-image"/>
+        <div class="menu-item-details">
+          <span class="menu-item-name">Hyderabadi Veg Biryani</span>
+          <span class="menu-item-price">₹160</span>
+          <p class="menu-item-description">Authentic Hyderabadi style veg biryani with strong spices.</p>
+          <button class="order-now-btn" onclick="addToBasket('Hyderabadi Veg Biryani', 160)">Order Now</button>
+        </div>
+      </div>
+
+      <div class="menu-item">
+        <img src="Mixed Veg Biryani.jpeg" alt="Mixed Veg Biryani" class="menu-item-image"/>
+        <div class="menu-item-details">
+          <span class="menu-item-name">Mixed Veg Biryani</span>
+          <span class="menu-item-price">₹160</span>
+          <p class="menu-item-description">A medley of seasonal veggies cooked with biryani rice.</p>
+          <button class="order-now-btn" onclick="addToBasket('Mixed Veg Biryani', 160)">Order Now</button>
+        </div>
+      </div>
+
+      <div class="menu-item">
+        <img src="Soya Chunk Biryani.webp" alt="Soya Chunk Biryani" class="menu-item-image"/>
+        <div class="menu-item-details">
+          <span class="menu-item-name">Soya Chunk Biryani</span>
+          <span class="menu-item-price">₹160</span>
+          <p class="menu-item-description">Nutritious soya chunks cooked in spicy biryani masala.</p>
+          <button class="order-now-btn" onclick="addToBasket('Soya Chunk Biryani', 160)">Order Now</button>
+        </div>
+      </div>
+
+      <div class="menu-item">
+        <img src="Veg Dum Biryani.jpg" alt="Veg Dum Biryani" class="menu-item-image"/>
+        <div class="menu-item-details">
+          <span class="menu-item-name">Veg Dum Biryani</span>
+          <span class="menu-item-price">₹160</span>
+          <p class="menu-item-description">Slow-cooked dum biryani with layered vegetables and spices.</p>
+          <button class="order-now-btn" onclick="addToBasket('Veg Dum Biryani', 160)">Order Now</button>
+        </div>
+      </div>
+
+      <div class="menu-item">
+        <img src="Mushroom Biryani.jpg" alt="Mushroom Biryani" class="menu-item-image"/>
+        <div class="menu-item-details">
+          <span class="menu-item-name">Mushroom Biryani</span>
+          <span class="menu-item-price">₹170</span>
+          <p class="menu-item-description">Flavored rice with earthy mushrooms and herbs.</p>
+          <button class="order-now-btn" onclick="addToBasket('Mushroom Biryani', 170)">Order Now</button>
+        </div>
+      </div>
+
+      <div class="menu-item">
+        <img src="Paneer Biryani.jpg" alt="Paneer Biryani" class="menu-item-image"/>
+        <div class="menu-item-details">
+          <span class="menu-item-name">Paneer Biryani</span>
+          <span class="menu-item-price">₹180</span>
+          <p class="menu-item-description">Soft paneer cubes simmered in rich biryani masala and rice.</p>
+          <button class="order-now-btn" onclick="addToBasket('Paneer Biryani', 180)">Order Now</button>
+        </div>
+      </div>
+
+      <div class="menu-item">
+        <img src="Veg Kofta Biryani.jpg" alt="Veg Kofta Biryani" class="menu-item-image"/>
+        <div class="menu-item-details">
+          <span class="menu-item-name">Veg Kofta Biryani</span>
+          <span class="menu-item-price">₹180</span>
+          <p class="menu-item-description">Soft veg koftas in rich gravy layered with biryani rice.</p>
+          <button class="order-now-btn" onclick="addToBasket('Veg Kofta Biryani', 180)">Order Now</button>
+        </div>
+      </div>
+
+      <div class="menu-item">
+        <img src="Cheese Biryani.jpg" alt="Cheese Biryani" class="menu-item-image"/>
+        <div class="menu-item-details">
+          <span class="menu-item-name">Cheese Biryani</span>
+          <span class="menu-item-price">₹190</span>
+          <p class="menu-item-description">Melted cheese blended with biryani masala and veggies.</p>
+          <button class="order-now-btn" onclick="addToBasket('Cheese Biryani', 190)">Order Now</button>
+        </div>
+      </div>
+
+      <div class="menu-item">
+        <img src="Tofu Biryani.jpeg" alt="Tofu Biryani" class="menu-item-image"/>
+        <div class="menu-item-details">
+          <span class="menu-item-name">Tofu Biryani</span>
+          <span class="menu-item-price">₹200</span>
+          <p class="menu-item-description">Protein-rich tofu in spicy biryani rice.</p>
+          <button class="order-now-btn" onclick="addToBasket('Tofu Biryani', 200)">Order Now</button>
+        </div>
+      </div>
+
+      <div class="menu-item">
+        <img src="Veg Handi Biryani.jpg" alt="Veg Handi Biryani (Special)" class="menu-item-image"/>
+        <div class="menu-item-details">
+          <span class="menu-item-name">Veg Handi Biryani (Special)</span>
+          <span class="menu-item-price">₹200</span>
+          <p class="menu-item-description">Slow-cooked in a traditional handi for enhanced flavor.</p>
+          <button class="order-now-btn" onclick="addToBasket('Veg Handi Biryani (Special)', 200)">Order Now</button>
+        </div>
+      </div>
+
+      <div class="menu-item">
+        <img src="Bro's Special Veg Biryani.avif" alt="Bro's Special Veg Biryani" class="menu-item-image"/>
+        <div class="menu-item-details">
+          <span class="menu-item-name">Bro's Special Veg Biryani</span>
+          <span class="menu-item-price">₹230</span>
+          <p class="menu-item-description">Signature dish with chef's secret blend of masalas.</p>
+          <button class="order-now-btn" onclick="addToBasket('Bro\'s Special Veg Biryani', 230)">Order Now</button>
+        </div>
+      </div>
+
+      <div class="menu-item">
+        <img src="Veg Nawabi Biryani.jpg" alt="Veg Nawabi Biryani (Special)" class="menu-item-image"/>
+        <div class="menu-item-details">
+          <span class="menu-item-name">Veg Nawabi Biryani (Special)</span>
+          <span class="menu-item-price">₹220</span>
+          <p class="menu-item-description">Royal-style biryani with dry fruits and exotic spices.</p>
+          <button class="order-now-btn" onclick="addToBasket('Veg Nawabi Biryani (Special)', 220)">Order Now</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  </section>
+ 
+ <!--Non Veg Biryani -->
+ <section id="Non Veg Biryani" class="menu-section" style="display: none;">
+  <h2>Non Veg Biryani</h2>
+  <div class="menu-container">
+    <div class="menu-section">
+
+        <div class="menu-item">
+            <img src="Chicken Biryani.jpg" alt="Chicken Biryani" class="menu-item-image"/>
+            <div class="menu-item-details">
+                <span class="menu-item-name">Chicken Biryani</span>
+                <span class="menu-item-price">₹180</span>
+                <p class="menu-item-description">Tender chicken cooked with aromatic spices and basmati rice.</p>
+                <button class="order-now-btn" onclick="addToBasket('Chicken Biryani', 180)">Order Now</button>
+            </div>
+        </div>
+
+        <div class="menu-item">
+            <img src="Mutton Biryani.jpg" alt="Mutton Biryani" class="menu-item-image"/>
+            <div class="menu-item-details">
+                <span class="menu-item-name">Mutton Biryani</span>
+                <span class="menu-item-price">₹220</span>
+                <p class="menu-item-description">Juicy mutton pieces layered with flavorful rice and herbs.</p>
+                <button class="order-now-btn" onclick="addToBasket('Mutton Biryani', 220)">Order Now</button>
+            </div>
+        </div>
+
+        <div class="menu-item">
+            <img src="Egg Biryani.webp" alt="Egg Biryani" class="menu-item-image"/>
+            <div class="menu-item-details">
+                <span class="menu-item-name">Egg Biryani</span>
+                <span class="menu-item-price">₹140</span>
+                <p class="menu-item-description">Boiled eggs with spiced rice in classic biryani style.</p>
+                <button class="order-now-btn" onclick="addToBasket('Egg Biryani', 140)">Order Now</button>
+            </div>
+        </div>
+
+        <div class="menu-item">
+            <img src="Fish Biryani.jpg" alt="Fish Biryani" class="menu-item-image"/>
+            <div class="menu-item-details">
+                <span class="menu-item-name">Fish Biryani</span>
+                <span class="menu-item-price">₹200</span>
+                <p class="menu-item-description">Flaky fish fillets marinated and cooked in biryani spices.</p>
+                <button class="order-now-btn" onclick="addToBasket('Fish Biryani', 200)">Order Now</button>
+            </div>
+        </div>
+
+        <div class="menu-item">
+            <img src="Prawns Biryani.webp" alt="Prawns Biryani" class="menu-item-image"/>
+            <div class="menu-item-details">
+                <span class="menu-item-name">Prawns Biryani</span>
+                <span class="menu-item-price">₹240</span>
+                <p class="menu-item-description">Succulent prawns blended in spicy biryani masala.</p>
+                <button class="order-now-btn" onclick="addToBasket('Prawns Biryani', 240)">Order Now</button>
+            </div>
+        </div>
+
+        <div class="menu-item">
+            <img src="Chicken Dum Biryani.jpg" alt="Chicken Dum Biryani" class="menu-item-image"/>
+            <div class="menu-item-details">
+                <span class="menu-item-name">Chicken Dum Biryani</span>
+                <span class="menu-item-price">₹190</span>
+                <p class="menu-item-description">Dum-cooked chicken biryani with rich layers of flavor.</p>
+                <button class="order-now-btn" onclick="addToBasket('Chicken Dum Biryani', 190)">Order Now</button>
+            </div>
+        </div>
+
+        <div class="menu-item">
+            <img src="Hyderabadi Chicken Biryani.jpg" alt="Hyderabadi Chicken Biryani" class="menu-item-image"/>
+            <div class="menu-item-details">
+                <span class="menu-item-name">Hyderabadi Chicken Biryani</span>
+                <span class="menu-item-price">₹210</span>
+                <p class="menu-item-description">Spicy and tangy chicken biryani from Hyderabad.</p>
+                <button class="order-now-btn" onclick="addToBasket('Hyderabadi Chicken Biryani', 210)">Order Now</button>
+            </div>
+        </div>
+
+        <div class="menu-item">
+            <img src="Mutton Biryani.jpg" alt="Mutton Dum Biryani" class="menu-item-image"/>
+            <div class="menu-item-details">
+                <span class="menu-item-name">Mutton Dum Biryani</span>
+                <span class="menu-item-price">₹240</span>
+                <p class="menu-item-description">Slow-cooked mutton with aromatic rice and spices.</p>
+                <button class="order-now-btn" onclick="addToBasket('Mutton Dum Biryani', 240)">Order Now</button>
+            </div>
+        </div>
+
+        <div class="menu-item">
+            <img src="Chicken 65 Biryani.jpg" alt="Chicken 65 Biryani" class="menu-item-image"/>
+            <div class="menu-item-details">
+                <span class="menu-item-name">Chicken 65 Biryani</span>
+                <span class="menu-item-price">₹220</span>
+                <p class="menu-item-description">Crispy chicken 65 pieces tossed with biryani rice.</p>
+                <button class="order-now-btn" onclick="addToBasket('Chicken 65 Biryani', 220)">Order Now</button>
+            </div>
+        </div>
+
+        <div class="menu-item">
+            <img src="Andhra Spicy Chicken Biryani.jpg" alt="Andhra Spicy Chicken Biryani" class="menu-item-image"/>
+            <div class="menu-item-details">
+                <span class="menu-item-name">Andhra Spicy Chicken Biryani</span>
+                <span class="menu-item-price">₹200</span>
+                <p class="menu-item-description">Fiery Andhra-style chicken biryani with bold flavors.</p>
+                <button class="order-now-btn" onclick="addToBasket('Andhra Spicy Chicken Biryani', 200)">Order Now</button>
+            </div>
+        </div>
+
+        <div class="menu-item">
+            <img src="Egg Curry Biryani.jpg" alt="Egg Curry Biryani" class="menu-item-image"/>
+            <div class="menu-item-details">
+                <span class="menu-item-name">Egg Curry Biryani</span>
+                <span class="menu-item-price">₹150</span>
+                <p class="menu-item-description">Spicy egg curry layered with fragrant rice.</p>
+                <button class="order-now-btn" onclick="addToBasket('Egg Curry Biryani', 150)">Order Now</button>
+            </div>
+        </div>
+
+        <div class="menu-item">
+            <img src="Keema Biryani.jpg" alt="Keema Biryani" class="menu-item-image"/>
+            <div class="menu-item-details">
+                <span class="menu-item-name">Keema Biryani</span>
+                <span class="menu-item-price">₹210</span>
+                <p class="menu-item-description">Minced meat mixed with biryani masala and basmati rice.</p>
+                <button class="order-now-btn" onclick="addToBasket('Keema Biryani', 210)">Order Now</button>
+            </div>
+        </div>
+
+        <div class="menu-item">
+            <img src="Nalli Biryani.jpg" alt="Nalli Biryani (Special)" class="menu-item-image"/>
+            <div class="menu-item-details">
+                <span class="menu-item-name">Nalli Biryani (Special)</span>
+                <span class="menu-item-price">₹250</span>
+                <p class="menu-item-description">Slow-cooked lamb shank biryani with royal flavors.</p>
+                <button class="order-now-btn" onclick="addToBasket('Nalli Biryani (Special)', 250)">Order Now</button>
+            </div>
+        </div>
+
+        <div class="menu-item">
+            <img src="Afghani Chicken Biryani.avif" alt="Afghani Chicken Biryani (Special)" class="menu-item-image"/>
+            <div class="menu-item-details">
+                <span class="menu-item-name">Afghani Chicken Biryani (Special)</span>
+                <span class="menu-item-price">₹230</span>
+                <p class="menu-item-description">Creamy Afghani style biryani with mild spices.</p>
+                <button class="order-now-btn" onclick="addToBasket('Afghani Chicken Biryani (Special)', 230)">Order Now</button>
+            </div>
+        </div>
+
+        <div class="menu-item">
+            <img src="Bro's Special Mutton Biryani.webp" alt="Bro's Special Mutton Biryani" class="menu-item-image"/>
+            <div class="menu-item-details">
+                <span class="menu-item-name">Bro's Special Mutton Biryani</span>
+                <span class="menu-item-price">₹270</span>
+                <p class="menu-item-description">Signature mutton biryani with chef’s secret masala.</p>
+                <button class="order-now-btn" onclick="addToBasket('Bro\'s Special Mutton Biryani', 270)">Order Now</button>
+            </div>
+        </div>
+    </div>
+</div>
+ </section>
+
+ <!-- INDIAN SPECIAL DISHES -->
+<section id="indian-special" class="menu-section" style="display: none;">
+  <h2>Indian Special Dishes</h2>
+  <div class="menu-container">
+    <div class="menu-section">
+      
+      <div class="menu-item">
+        <img src="Bhindi Masala.jpg" alt="Bhindi Masala" class="menu-item-image" />
+        <div class="menu-item-details">
+          <span class="menu-item-name">Bhindi Masala</span>
+          <span class="menu-item-price">₹120</span>
+          <p class="menu-item-description">Okra cooked with Indian spices in dry gravy.</p>
+          <button class="order-now-btn" onclick="addToBasket('Bhindi Masala', 120)">Order Now</button>
+        </div>
+      </div>
+
+      <div class="menu-item">
+        <img src="Chole Bhature.jpg" alt="Chole Bhature" class="menu-item-image" />
+        <div class="menu-item-details">
+          <span class="menu-item-name">Chole Bhature</span>
+          <span class="menu-item-price">₹130</span>
+          <p class="menu-item-description">Punjabi chickpeas curry served with fried bread.</p>
+          <button class="order-now-btn" onclick="addToBasket('Chole Bhature', 130)">Order Now</button>
+        </div>
+      </div>
+
+      <div class="menu-item">
+        <img src="Mix Veg.jpg" alt="Mix Veg" class="menu-item-image" />
+        <div class="menu-item-details">
+          <span class="menu-item-name">Mix Veg</span>
+          <span class="menu-item-price">₹130</span>
+          <p class="menu-item-description">Mixed seasonal vegetables sautéed in spices.</p>
+          <button class="order-now-btn" onclick="addToBasket('Mix Veg', 130)">Order Now</button>
+        </div>
+      </div>
+
+      <div class="menu-item">
+        <img src="Rajma Masala.jpg" alt="Rajma Masala" class="menu-item-image" />
+        <div class="menu-item-details">
+          <span class="menu-item-name">Rajma Masala</span>
+          <span class="menu-item-price">₹140</span>
+          <p class="menu-item-description">Spicy red kidney beans curry served with rice.</p>
+          <button class="order-now-btn" onclick="addToBasket('Rajma Masala', 140)">Order Now</button>
+        </div>
+      </div>
+
+      <div class="menu-item">
+        <img src="Dal Makhani.jpg" alt="Dal Makhani" class="menu-item-image" />
+        <div class="menu-item-details">
+          <span class="menu-item-name">Dal Makhani</span>
+          <span class="menu-item-price">₹150</span>
+          <p class="menu-item-description">Slow-cooked black lentils in rich buttery gravy.</p>
+          <button class="order-now-btn" onclick="addToBasket('Dal Makhani', 150)">Order Now</button>
+        </div>
+      </div>
+
+      <div class="menu-item">
+        <img src="Paneer Bhurji.jpg" alt="Paneer Bhurji" class="menu-item-image" />
+        <div class="menu-item-details">
+          <span class="menu-item-name">Paneer Bhurji</span>
+          <span class="menu-item-price">₹150</span>
+          <p class="menu-item-description">Scrambled paneer with Indian-style masala.</p>
+          <button class="order-now-btn" onclick="addToBasket('Paneer Bhurji', 150)">Order Now</button>
+        </div>
+      </div>
+
+      <div class="menu-item">
+        <img src="Palak Paneer.jpg" alt="Palak Paneer" class="menu-item-image" />
+        <div class="menu-item-details">
+          <span class="menu-item-name">Palak Paneer</span>
+          <span class="menu-item-price">₹160</span>
+          <p class="menu-item-description">Spinach gravy enriched with paneer and spices.</p>
+          <button class="order-now-btn" onclick="addToBasket('Palak Paneer', 160)">Order Now</button>
+        </div>
+      </div>
+
+      <div class="menu-item">
+        <img src="Mushroom Masala.JPG" alt="Mushroom Masala" class="menu-item-image" />
+        <div class="menu-item-details">
+          <span class="menu-item-name">Mushroom Masala</span>
+          <span class="menu-item-price">₹160</span>
+          <p class="menu-item-description">Button mushrooms in a creamy onion-tomato curry.</p>
+          <button class="order-now-btn" onclick="addToBasket('Mushroom Masala', 160)">Order Now</button>
+        </div>
+      </div>
+
+      <div class="menu-item">
+        <img src="Kadhai Paneer.jpg" alt="Kadhai Paneer" class="menu-item-image" />
+        <div class="menu-item-details">
+          <span class="menu-item-name">Kadhai Paneer</span>
+          <span class="menu-item-price">₹170</span>
+          <p class="menu-item-description">Paneer tossed in spicy onion-tomato kadhai masala.</p>
+          <button class="order-now-btn" onclick="addToBasket('Kadhai Paneer', 170)">Order Now</button>
+        </div>
+      </div>
+
+      <div class="menu-item">
+        <img src="Butter Paneer.jpg" alt="Butter Paneer" class="menu-item-image" />
+        <div class="menu-item-details">
+          <span class="menu-item-name">Butter Paneer</span>
+          <span class="menu-item-price">₹180</span>
+          <p class="menu-item-description">Creamy tomato-based curry with soft paneer cubes.</p>
+          <button class="order-now-btn" onclick="addToBasket('Butter Paneer', 180)">Order Now</button>
+        </div>
+      </div>
+
+      <div class="menu-item">
+        <img src="Paneer Lababdar (Special).jpg" alt="Paneer Lababdar" class="menu-item-image" />
+        <div class="menu-item-details">
+          <span class="menu-item-name">Paneer Lababdar (Special)</span>
+          <span class="menu-item-price">₹190</span>
+          <p class="menu-item-description">Royal paneer dish with creamy tomato-cashew gravy.</p>
+          <button class="order-now-btn" onclick="addToBasket('Paneer Lababdar (Special)', 190)">Order Now</button>
+        </div>
+      </div>
+
+      <div class="menu-item">
+        <img src="Chicken Curry.jpg" alt="Chicken Curry" class="menu-item-image" />
+        <div class="menu-item-details">
+          <span class="menu-item-name">Chicken Curry</span>
+          <span class="menu-item-price">₹200</span>
+          <p class="menu-item-description">Traditional Indian spiced chicken curry.</p>
+          <button class="order-now-btn" onclick="addToBasket('Chicken Curry', 200)">Order Now</button>
+        </div>
+      </div>
+
+      <div class="menu-item">
+        <img src="Mutton Rogan Josh.JPG" alt="Mutton Rogan Josh" class="menu-item-image" />
+        <div class="menu-item-details">
+          <span class="menu-item-name">Mutton Rogan Josh</span>
+          <span class="menu-item-price">₹250</span>
+          <p class="menu-item-description">Kashmiri-style mutton curry in a flavorful red gravy.</p>
+          <button class="order-now-btn" onclick="addToBasket('Mutton Rogan Josh', 250)">Order Now</button>
+        </div>
+      </div>
+
+      <div class="menu-item">
+        <img src="Special Chicken Handi (Special).jpg" alt="Special Chicken Handi" class="menu-item-image" />
+        <div class="menu-item-details">
+          <span class="menu-item-name">Special Chicken Handi (Special)</span>
+          <span class="menu-item-price">₹260</span>
+          <p class="menu-item-description">Special chicken dish slow-cooked in traditional handi.</p>
+          <button class="order-now-btn" onclick="addToBasket('Special Chicken Handi (Special)', 260)">Order Now</button>
+        </div>
+      </div>
+
+     
+      <div class="menu-item">
+        <img src="Bro's Thali (Special).avif" alt="Bro's Thali" class="menu-item-image" />
+        <div class="menu-item-details">
+          <span class="menu-item-name">Bro's Thali (Special)</span>
+          <span class="menu-item-price">₹299</span>
+          <p class="menu-item-description">Deluxe thali with assorted veg/non-veg dishes & desserts.</p>
+          <button class="order-now-btn" onclick="addToBasket('Bro\'s Thali (Special)', 299)">Order Now</button>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+ <!-- Chinese SPECIAL DISHES -->
+<section id="chinese-special" class="menu-section" style="display: none;">
+  <h2>Chinese Dishes</h2>
+  <div class="menu-container">
+    <div class="menu-section">
+
+      <div class="menu-item">
+        <img src="Veg Momos.webp" alt="Veg Momos" class="menu-item-image">
+        <div class="menu-item-details">
+          <h3>Veg Momos</h3>
+          <p class="menu-item-description">Steamed dumplings stuffed with veggies and served with dip.</p>
+          <span class="menu-item-price">₹40</span>
+          <button class="order-now-btn" onclick="addToBasket('Veg Momos', 40)">Order Now</button>
+        </div>
+      </div>
+
+      <div class="menu-item">
+        <img src="Veg Fried Rice.jpg" alt="Veg Fried Rice" class="menu-item-image">
+        <div class="menu-item-details">
+          <h3>Veg Fried Rice</h3>
+          <p class="menu-item-description">Classic Chinese rice stir-fried with vegetables and soy sauce.</p>
+          <span class="menu-item-price">₹90</span>
+          <button class="order-now-btn" onclick="addToBasket('Veg Fried Rice', 90)">Order Now</button>
+        </div>
+      </div>
+
+      <div class="menu-item">
+        <img src="Hot & Sour Veg Soup.jpg" alt="Hot & Sour Soup" class="menu-item-image">
+        <div class="menu-item-details">
+          <h3>Hot & Sour Soup</h3>
+          <p class="menu-item-description">Spicy-tangy soup with veggies and Asian spices.</p>
+          <span class="menu-item-price">₹90</span>
+          <button class="order-now-btn" onclick="addToBasket('Hot & Sour Soup', 90)">Order Now</button>
+        </div>
+      </div>
+
+      <div class="menu-item">
+        <img src="Hakka Noodles (Veg).webp" alt="Hakka Noodles (Veg)" class="menu-item-image">
+        <div class="menu-item-details">
+          <h3>Hakka Noodles (Veg)</h3>
+          <p class="menu-item-description">Stir-fried noodles loaded with crunchy veggies and flavor.</p>
+          <span class="menu-item-price">₹100</span>
+          <button class="order-now-btn" onclick="addToBasket('Hakka Noodles (Veg)', 100)">Order Now</button>
+        </div>
+      </div>
+
+      <div class="menu-item">
+        <img src="Egg Noodles.jpg" alt="Egg Noodles" class="menu-item-image">
+        <div class="menu-item-details">
+          <h3>Egg Noodles</h3>
+          <p class="menu-item-description">Noodles stir-fried with eggs, vegetables, and sauces.</p>
+          <span class="menu-item-price">₹100</span>
+          <button class="order-now-btn" onclick="addToBasket('Egg Noodles', 100)">Order Now</button>
+        </div>
+      </div>
+
+      <div class="menu-item">
+        <img src="Spring Rolls.jpg" alt="Spring Rolls" class="menu-item-image">
+        <div class="menu-item-details">
+          <h3>Spring Rolls</h3>
+          <p class="menu-item-description">Golden-fried rolls filled with spiced veggies.</p>
+          <span class="menu-item-price">₹100</span>
+          <button class="order-now-btn" onclick="addToBasket('Spring Rolls', 100)">Order Now</button>
+        </div>
+      </div>
+
+      <div class="menu-item">
+        <img src="Manchurian (Dry).jpg" alt="Manchurian (Dry)" class="menu-item-image">
+        <div class="menu-item-details">
+          <h3>Manchurian (Dry)</h3>
+          <p class="menu-item-description">Crispy vegetable balls tossed in tangy sauce.</p>
+          <span class="menu-item-price">₹110</span>
+          <button class="order-now-btn" onclick="addToBasket('Manchurian (Dry)', 110)">Order Now</button>
+        </div>
+      </div>
+
+      <div class="menu-item">
+        <img src="Chicken Fried Rice.webp" alt="Chicken Fried Rice" class="menu-item-image">
+        <div class="menu-item-details">
+          <h3>Chicken Fried Rice</h3>
+          <p class="menu-item-description">Fluffy rice tossed with juicy chicken and spices.</p>
+          <span class="menu-item-price">₹110</span>
+          <button class="order-now-btn" onclick="addToBasket('Chicken Fried Rice', 110)">Order Now</button>
+        </div>
+      </div>
+
+      <div class="menu-item">
+        <img src="Chicken Schezwan Rice.jpg" alt="Chicken Schezwan Rice" class="menu-item-image">
+        <div class="menu-item-details">
+          <h3>Chicken Schezwan Rice</h3>
+          <p class="menu-item-description">Spicy rice dish with bold Schezwan flavors and chicken.</p>
+          <span class="menu-item-price">₹120</span>
+          <button class="order-now-btn" onclick="addToBasket('Chicken Schezwan Rice', 120)">Order Now</button>
+        </div>
+      </div>
+
+      <div class="menu-item">
+        <img src="Paneer Chilli.jpg" alt="Paneer Chilli" class="menu-item-image">
+        <div class="menu-item-details">
+          <h3>Paneer Chilli</h3>
+          <p class="menu-item-description">Crispy paneer cubes in a spicy Chinese sauce.</p>
+          <span class="menu-item-price">₹140</span>
+          <button class="order-now-btn" onclick="addToBasket('Paneer Chilli', 140)">Order Now</button>
+        </div>
+      </div>
+
+      <div class="menu-item">
+        <img src="Schezwan Noodles (Special).jpg" alt="Schezwan Noodles" class="menu-item-image">
+        <div class="menu-item-details">
+          <h3>Schezwan Noodles (Special)</h3>
+          <p class="menu-item-description">Spicy noodles tossed in homemade Schezwan sauce.</p>
+          <span class="menu-item-price">₹140</span>      <div class="menu-item">
+        <img src="Chicken Manchurian.jpg" alt="Chicken Manchurian" class="menu-item-image">
+        <div class="menu-item-details">
+          <h3>Chicken Manchurian</h3>
+          <p class="menu-item-description">Crispy chicken in tangy Manchurian sauce.</p>
+          <span class="menu-item-price">₹150</span>
+          <button class="order-now-btn" onclick="addToBasket('Chicken Manchurian', 150)">Order Now</button>
+        </div>
+      </div>
+
+      <div class="menu-item">
+        <img src="Veg Hakka Chowmein.webp" alt="Veg Hakka Chowmein" class="menu-item-image">
+        <div class="menu-item-details">
+          <h3>Veg Hakka Chowmein</h3>
+          <p class="menu-item-description">Stir-fried noodles with crunchy vegetables.</p>
+          <span class="menu-item-price">₹120</span>
+          <button class="order-now-btn" onclick="addToBasket('Veg Hakka Chowmein', 120)">Order Now</button>
+        </div>
+      </div>
+
+      <div class="menu-item">
+        <img src="Chicken Chowmein.jpg" alt="Chicken Chowmein" class="menu-item-image">
+        <div class="menu-item-details">
+          <h3>Chicken Chowmein</h3>
+          <p class="menu-item-description">Noodles tossed with chicken and vegetables.</p>
+          <span class="menu-item-price">₹140</span>
+          <button class="order-now-btn" onclick="addToBasket('Chicken Chowmein', 140)">Order Now</button>
+        </div>
+      </div>
+
+      <div class="menu-item">
+        <img src="American Chopsey.jpg" alt="American Chopsey" class="menu-item-image">
+        <div class="menu-item-details">
+          <h3>American Chopsey</h3>
+          <p class="menu-item-description">Crispy noodles topped with saucy vegetables.</p>
+          <span class="menu-item-price">₹160</span>
+          <button class="order-now-btn" onclick="addToBasket('American Chopsey', 160)">Order Now</button>
+        </div>
+      </div>
+
+      <div class="menu-item">
+        <img src="Bro's Special Noodles.jpg" alt="Bro's Special Noodles" class="menu-item-image">
+        <div class="menu-item-details">
+          <h3>Bro's Special Noodles</h3>
+          <p class="menu-item-description">Our signature noodles with mixed veggies and sauces.</p>
+          <span class="menu-item-price">₹180</span>
+          <button class="order-now-btn" onclick="addToBasket('Bro\'s Special Noodles', 180)">Order Now</button>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- CONTINENTAL SPECIAL -->
+<section id="continental" class="menu-section" style="display: none;">
+  <h2>Continental Special</h2>
+  <div class="menu-container">
+    <div class="menu-section">
+
+      <div class="menu-item">
+        <img src="Garlic Bread.jpg" alt="Garlic Bread" class="menu-item-image">
+        <div class="menu-item-details">
+          <h3>Garlic Bread</h3>
+          <p class="menu-item-description">Toasted bread with garlic butter.</p>
+          <span class="menu-item-price">₹80</span>
+          <button class="order-now-btn" onclick="addToBasket('Garlic Bread', 80)">Order Now</button>
+        </div>
+      </div>
+
+      <div class="menu-item">
+        <img src="Cheese Garlic Bread.jpg" alt="Cheese Garlic Bread" class="menu-item-image">
+        <div class="menu-item-details">
+          <h3>Cheese Garlic Bread</h3>
+          <p class="menu-item-description">Garlic bread topped with melted cheese.</p>
+          <span class="menu-item-price">₹100</span>
+          <button class="order-now-btn" onclick="addToBasket('Cheese Garlic Bread', 100)">Order Now</button>
+        </div>
+      </div>
+
+      <div class="menu-item">
+        <img src="Veg Pasta.jpg" alt="Veg Pasta" class="menu-item-image">
+        <div class="menu-item-details">
+          <h3>Veg Pasta</h3>
+          <p class="menu-item-description">Pasta tossed with vegetables in white/red sauce.</p>
+          <span class="menu-item-price">₹120</span>
+          <button class="order-now-btn" onclick="addToBasket('Veg Pasta', 120)">Order Now</button>
+        </div>
+      </div>
+
+      <div class="menu-item">
+        <img src="White Sauce Pasta.jpg" alt="White Sauce Pasta" class="menu-item-image">
+        <div class="menu-item-details">
+          <h3>White Sauce Pasta</h3>
+          <p class="menu-item-description">Pasta in creamy white sauce with herbs.</p>
+          <span class="menu-item-price">₹140</span>
+          <button class="order-now-btn" onclick="addToBasket('White Sauce Pasta', 140)">Order Now</button>
+        </div>
+      </div>
+
+      <div class="menu-item">
+        <img src="Red Sauce Pasta.jpg" alt="Red Sauce Pasta" class="menu-item-image">
+        <div class="menu-item-details">
+          <h3>Red Sauce Pasta</h3>
+          <p class="menu-item-description">Pasta in tangy tomato sauce with herbs.</p>
+          <span class="menu-item-price">₹140</span>
+          <button class="order-now-btn" onclick="addToBasket('Red Sauce Pasta', 140)">Order Now</button>
+        </div>
+      </div>
+
+      <div class="menu-item">
+        <img src="Chicken Pasta.jpg" alt="Chicken Pasta" class="menu-item-image">
+        <div class="menu-item-details">
+          <h3>Chicken Pasta</h3>
+          <p class="menu-item-description">Pasta with grilled chicken in your choice of sauce.</p>
+          <span class="menu-item-price">₹160</span>
+          <button class="order-now-btn" onclick="addToBasket('Chicken Pasta', 160)">Order Now</button>
+        </div>
+      </div>
+
+      <div class="menu-item">
+        <img src="Margherita Pizza.jpg" alt="Margherita Pizza" class="menu-item-image">
+        <div class="menu-item-details">
+          <h3>Margherita Pizza</h3>
+          <p class="menu-item-description">Classic pizza with tomato sauce and mozzarella.</p>
+          <span class="menu-item-price">₹180</span>
+          <button class="order-now-btn" onclick="addToBasket('Margherita Pizza', 180)">Order Now</button>
+        </div>
+      </div>
+
+      <div class="menu-item">
+        <img src="Veggie Pizza.jpg" alt="Veggie Pizza" class="menu-item-image">
+        <div class="menu-item-details">
+          <h3>Veggie Pizza</h3>
+          <p class="menu-item-description">Pizza loaded with assorted vegetables.</p>
+          <span class="menu-item-price">₹200</span>
+          <button class="order-now-btn" onclick="addToBasket('Veggie Pizza', 200)">Order Now</button>
+        </div>
+      </div>
+
+      <div class="menu-item">
+        <img src="Chicken Pizza.jpg" alt="Chicken Pizza" class="menu-item-image">
+        <div class="menu-item-details">
+          <h3>Chicken Pizza</h3>
+          <p class="menu-item-description">Pizza topped with grilled chicken pieces.</p>
+          <span class="menu-item-price">₹220</span>
+          <button class="order-now-btn" onclick="addToBasket('Chicken Pizza', 220)">Order Now</button>
+        </div>
+      </div>
+
+      <div class="menu-item">
+        <img src="Pepperoni Pizza.jpg" alt="Pepperoni Pizza" class="menu-item-image">
+        <div class="menu-item-details">
+          <h3>Pepperoni Pizza</h3>
+          <p class="menu-item-description">Classic pepperoni pizza with extra cheese.</p>
+          <span class="menu-item-price">₹240</span>
+          <button class="order-now-btn" onclick="addToBasket('Pepperoni Pizza', 240)">Order Now</button>
+        </div>
+      </div>
+
+      <div class="menu-item">
+        <img src="Veg Burger.jpg" alt="Veg Burger" class="menu-item-image">
+        <div class="menu-item-details">
+          <h3>Veg Burger</h3>
+          <p class="menu-item-description">Burger with veg patty, lettuce and sauces.</p>
+          <span class="menu-item-price">₹90</span>
+          <button class="order-now-btn" onclick="addToBasket('Veg Burger', 90)">Order Now</button>
+        </div>
+      </div>
+
+      <div class="menu-item">
+        <img src="Chicken Burger.jpg" alt="Chicken Burger" class="menu-item-image">
+        <div class="menu-item-details">
+          <h3>Chicken Burger</h3>
+          <p class="menu-item-description">Juicy chicken patty burger with fresh veggies.</p>
+          <span class="menu-item-price">₹120</span>
+          <button class="order-now-btn" onclick="addToBasket('Chicken Burger', 120)">Order Now</button>
+        </div>
+      </div>
+
+      <div class="menu-item">
+        <img src="Grilled Sandwich.jpg" alt="Grilled Sandwich" class="menu-item-image">
+        <div class="menu-item-details">
+          <h3>Grilled Sandwich</h3>
+          <p class="menu-item-description">Toasted sandwich with veggies and cheese.</p>
+          <span class="menu-item-price">₹100</span>
+          <button class="order-now-btn" onclick="addToBasket('Grilled Sandwich', 100)">Order Now</button>
+        </div>
+      </div>
+
+      <div class="menu-item">
+        <img src="Club Sandwich.jpg" alt="Club Sandwich" class="menu-item-image">
+        <div class="menu-item-details">
+          <h3>Club Sandwich</h3>
+          <p class="menu-item-description">Triple-decker sandwich with chicken and veggies.</p>
+          <span class="menu-item-price">₹140</span>
+          <button class="order-now-btn" onclick="addToBasket('Club Sandwich', 140)">Order Now</button>
+        </div>
+      </div>
+
+      <div class="menu-item">
+        <img src="Bro's Special Burger.jpg" alt="Bro's Special Burger" class="menu-item-image">
+        <div class="menu-item-details">
+          <h3>Bro's Special Burger</h3>
+          <p class="menu-item-description">Our signature burger with double patty and special sauce.</p>
+          <span class="menu-item-price">₹160</span>
+          <button class="order-now-btn" onclick="addToBasket('Bro\'s Special Burger', 160)">Order Now</button>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- BREADS SECTION -->
+<section id="breads" class="menu-section" style="display: none;">
+  <h2>Breads</h2>
+  <div class="menu-container">
+    <div class="menu-section">
+
+      <div class="menu-item">
+        <img src="Tandoori Roti.jpg" alt="Tandoori Roti" class="menu-item-image">
+        <div class="menu-item-details">
+          <h3>Tandoori Roti</h3>
+          <p class="menu-item-description">Traditional Indian bread cooked in tandoor.</p>
+          <span class="menu-item-price">₹20</span>
+          <button class="order-now-btn" onclick="addToBasket('Tandoori Roti', 20)">Order Now</button>
+        </div>
+      </div>
+
+      <div class="menu-item">
+        <img src="Butter Roti.jpg" alt="Butter Roti" class="menu-item-image">
+        <div class="menu-item-details">
+          <h3>Butter Roti</h3>
+          <p class="menu-item-description">Tandoori roti topped with butter.</p>
+          <span class="menu-item-price">₹25</span>
+          <button class="order-now-btn" onclick="addToBasket('Butter Roti', 25)">Order Now</button>
+        </div>
+      </div>
+
+      <div class="menu-item">
+        <img src="Plain Naan.jpg" alt="Plain Naan" class="menu-item-image">
+        <div class="menu-item-details">
+          <h3>Plain Naan</h3>
+          <p class="menu-item-description">Leavened white flour bread.</p>
+          <span class="menu-item-price">₹30</span>
+          <button class="order-now-btn" onclick="addToBasket('Plain Naan', 30)">Order Now</button>
+        </div>
+      </div>
+
+      <div class="menu-item">
+        <img src="Butter Naan.jpg" alt="Butter Naan" class="menu-item-image">
+        <div class="menu-item-details">
+          <h3>Butter Naan</h3>
+          <p class="menu-item-description">Naan bread topped with butter.</p>
+          <span class="menu-item-price">₹40</span>
+          <button class="order-now-btn" onclick="addToBasket('Butter Naan', 40)">Order Now</button>
+        </div>
+      </div>
+
+      <div class="menu-item">
+        <img src="Garlic Naan.jpg" alt="Garlic Naan" class="menu-item-image">
+        <div class="menu-item-details">
+          <h3>Garlic Naan</h3>
+          <p class="menu-item-description">Naan flavored with garlic and coriander.</p>
+          <span class="menu-item-price">₹50</span>
+          <button class="order-now-btn" onclick="addToBasket('Garlic Naan', 50)">Order Now</button>
+        </div>
+      </div>
+
+      <div class="menu-item">
+        <img src="Cheese Naan.jpg" alt="Cheese Naan" class="menu-item-image">
+        <div class="menu-item-details">
+          <h3>Cheese Naan</h3>
+          <p class="menu-item-description">Naan stuffed with melted cheese.</p>
+          <span class="menu-item-price">₹60</span>
+          <button class="order-now-btn" onclick="addToBasket('Cheese Naan', 60)">Order Now</button>
+        </div>
+      </div>
+
+      <div class="menu-item">
+        <img src="Missi Roti.jpg" alt="Missi Roti" class="menu-item-image">
+        <div class="menu-item-details">
+          <h3>Missi Roti</h3>
+          <p class="menu-item-description">Traditional Punjabi gram flour bread.</p>
+          <span class="menu-item-price">₹40</span>
+          <button class="order-now-btn" onclick="addToBasket('Missi Roti', 40)">Order Now</button>
+        </div>
+      </div>
+
+      <div class="menu-item">
+        <img src="Aloo Paratha.jpg" alt="Aloo Paratha" class="menu-item-image">
+        <div class="menu-item-details">
+          <h3>Aloo Paratha</h3>
+          <p class="menu-item-description">Whole wheat bread stuffed with spiced potatoes.</p>
+          <span class="menu-item-price">₹50</span>
+          <button class="order-now-btn" onclick="addToBasket('Aloo Paratha', 50)">Order Now</button>
+        </div>
+      </div>
+
+      <div class="menu-item">
+        <img src="Paneer Paratha.jpg" alt="Paneer Paratha" class="menu-item-image">
+        <div class="menu-item-details">
+          <h3>Paneer Paratha</h3>
+          <p class="menu-item-description">Stuffed with spiced paneer filling.</p>
+          <span class="menu-item-price">₹60</span>
+          <button class="order-now-btn" onclick="addToBasket('Paneer Paratha', 60)">Order Now</button>
+        </div>
+      </div>
+
+      <div class="menu-item">
+        <img src="Lachha Paratha.jpg" alt="Lachha Paratha" class="menu-item-image">
+        <div class="menu-item-details">
+          <h3>Lachha Paratha</h3>
+          <p class="menu-item-description">Multi-layered flaky bread.</p>
+          <span class="menu-item-price">₹40</span>
+          <button class="order-now-btn" onclick="addToBasket('Lachha Paratha', 40)">Order Now</button>
+        </div>
+      </div>
+
+      <div class="menu-item">
+        <img src="Rumali Roti.jpg" alt="Rumali Roti" class="menu-item-image">
+        <div class="menu-item-details">
+          <h3>Rumali Roti</h3>
+          <p class="menu-item-description">Thin bread like handkerchief.</p>
+          <span class="menu-item-price">₹30</span>
+          <button class="order-now-btn" onclick="addToBasket('Rumali Roti', 30)">Order Now</button>
+        </div>
+      </div>
+
+      <div class="menu-item">
+        <img src="Bhatura.jpg" alt="Bhatura" class="menu-item-image">
+        <div class="menu-item-details">
+          <h3>Bhatura</h3>
+          <p class="menu-item-description">Puffed deep-fried bread.</p>
+          <span class="menu-item-price">₹40</span>
+          <button class="order-now-btn" onclick="addToBasket('Bhatura', 40)">Order Now</button>
+        </div>
+      </div>
+
+      <div class="menu-item">
+        <img src="Kulcha.jpg" alt="Kulcha" class="menu-item-image">
+        <div class="menu-item-details">
+          <h3>Kulcha</h3>
+          <p class="menu-item-description">Leavened bread from North India.</p>
+          <span class="menu-item-price">₹50</span>
+          <button class="order-now-btn" onclick="addToBasket('Kulcha', 50)">Order Now</button>
+        </div>
+      </div>
+
+      <div class="menu-item">
+        <img src="Stuffed Kulcha.jpg" alt="Stuffed Kulcha" class="menu-item-image">
+        <div class="menu-item-details">
+          <h3>Stuffed Kulcha</h3>
+          <p class="menu-item-description">Kulcha stuffed with potato or paneer.</p>
+          <span class="menu-item-price">₹60</span>
+          <button class="order-now-btn" onclick="addToBasket('Stuffed Kulcha', 60)">Order Now</button>
+        </div>
+      </div>
+
+      <div class="menu-item">
+        <img src="Bro's Special Bread Basket.jpg" alt="Bro's Special Bread Basket" class="menu-item-image">
+        <div class="menu-item-details">
+          <h3>Bro's Special Bread Basket</h3>
+          <p class="menu-item-description">Assortment of our best breads.</p>
+          <span class="menu-item-price">₹150</span>
+          <button class="order-now-btn" onclick="addToBasket('Bro\'s Special Bread Basket', 150)">Order Now</button>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- DESSERTS SECTION -->
+<section id="desserts" class="menu-section" style="display: none;">
+  <h2>Desserts</h2>
+  <div class="menu-container">
+    <div class="menu-section">
+
+      <div class="menu-item">
+        <img src="Gulab Jamun.jpg" alt="Gulab Jamun" class="menu-item-image">
+        <div class="menu-item-details">
+          <h3>Gulab Jamun</h3>
+          <p class="menu-item-description">Soft milk balls in sugar syrup.</p>
+          <span class="menu-item-price">₹40</span>
+          <button class="order-now-btn" onclick="addToBasket('Gulab Jamun', 40)">Order Now</button>
+        </div>
+      </div>
+
+      <div class="menu-item">
+        <img src="Rasgulla.jpg" alt="Rasgulla" class="menu-item-image">
+        <div class="menu-item-details">
+          <h3>Rasgulla</h3>
+          <p class="menu-item-description">Spongy cottage cheese balls in syrup.</p>
+          <span class="menu-item-price">₹40</span>
+          <button class="order-now-btn" onclick="addToBasket('Rasgulla', 40)">Order Now</button>
+        </div>
+      </div>
+
+      <div class="menu-item">
+        <img src="Rasmalai.jpg" alt="Rasmalai" class="menu-item-image">
+        <div class="menu-item-details">
+          <h3>Rasmalai</h3>
+          <p class="menu-item-description">Soft cheese patties in sweetened milk.</p>
+          <span class="menu-item-price">₹50</span>
+          <button class="order-now-btn" onclick="addToBasket('Rasmalai', 50)">Order Now</button>
+        </div>
+      </div>
+
+      <div class="menu-item">
+        <img src="Kheer.jpg" alt="Kheer" class="menu-item-image">
+        <div class="menu-item-details">
+          <h3>Kheer</h3>
+          <p class="menu-item-description">Traditional rice pudding with nuts.</p>
+          <span class="menu-item-price">₹60</span>
+          <button class="order-now-btn" onclick="addToBasket('Kheer', 60)">Order Now</button>
+        </div>
+      </div>
+
+      <div class="menu-item">
+        <img src="Gajar Ka Halwa.jpg" alt="Gajar Ka Halwa" class="menu-item-image">
+        <div class="menu-item-details">
+          <h3>Gajar Ka Halwa</h3>
+          <p class="menu-item-description">Carrot pudding with milk and dry fruits.</p>
+          <span class="menu-item-price">₹70</span>
+          <button class="order-now-btn" onclick="addToBasket('Gajar Ka Halwa', 70)">Order Now</button>
+        </div>
+      </div>
+
+      <div class="menu-item">
+        <img src="Moong Dal Halwa.jpg" alt="Moong Dal Halwa" class="menu-item-image">
+        <div class="menu-item-details">
+          <h3>Moong Dal Halwa</h3>
+          <p class="menu-item-description">Rich lentil dessert with ghee.</p>
+          <span class="menu-item-price">₹80</span>
+          <button class="order-now-btn" onclick="addToBasket('Moong Dal Halwa', 80)">Order Now</button>
+        </div>
+      </div>
+
+      <div class="menu-item">
+        <img src="Ice Cream.jpg" alt="Ice Cream" class="menu-item-image">
+        <div class="menu-item-details">
+          <h3>Ice Cream</h3>
+          <p class="menu-item-description">Vanilla, chocolate or strawberry.</p>
+          <span class="menu-item-price">₹60</span>
+          <button class="order-now-btn" onclick="addToBasket('Ice Cream', 60)">Order Now</button>
+        </div>
+      </div>
+
+      <div class="menu-item">
+        <img src="Chocolate Brownie.jpg" alt="Chocolate Brownie" class="menu-item-image">
+        <div class="menu-item-details">
+          <h3>Chocolate Brownie</h3>
+          <p class="menu-item-description">Warm chocolate brownie with ice cream.</p>
+          <span class="menu-item-price">₹90</span>
+          <button class="order-now-btn" onclick="addToBasket('Chocolate Brownie', 90)">Order Now</button>
+        </div>
+      </div>
+
+      <div class="menu-item">
+        <img src="Chocolate Mousse.jpg" alt="Chocolate Mousse" class="menu-item-image">
+        <div class="menu-item-details">
+          <h3>Chocolate Mousse</h3>
+          <p class="menu-item-description">Light and airy chocolate dessert.</p>
+          <span class="menu-item-price">₹100</span>
+          <button class="order-now-btn" onclick="addToBasket('Chocolate Mousse', 100)">Order Now</button>
+        </div>
+      </div>
+
+      <div class="menu-item">
+        <img src="Tiramisu.jpg" alt="Tiramisu" class="menu-item-image">
+        <div class="menu-item-details">
+          <h3>Tiramisu</h3>
+          <p class="menu-item-description">Classic Italian coffee-flavored dessert.</p>
+          <span class="menu-item-price">₹120</span>
+          <button class="order-now-btn" onclick="addToBasket('Tiramisu', 120)">Order Now</button>
+        </div>
+      </div>
+
+      <div class="menu-item">
+        <img src="Cheesecake.jpg" alt="Cheesecake" class="menu-item-image">
+        <div class="menu-item-details">
+          <h3>Cheesecake</h3>
+          <p class="menu-item-description">New York style cheesecake.</p>
+          <span class="menu-item-price">₹120</span>
+          <button class="order-now-btn" onclick="addToBasket('Cheesecake', 120)">Order Now</button>
+        </div>
+      </div>
+
+      <div class="menu-item">
+        <img src="Apple Pie.jpg" alt="Apple Pie" class="menu-item-image">
+        <div class="menu-item-details">
+          <h3>Apple Pie</h3>
+          <p class="menu-item-description">Warm apple pie with vanilla ice cream.</p>
+          <span class="menu-item-price">₹110</span>
+          <button class="order-now-btn" onclick="addToBasket('Apple Pie', 110)">Order Now</button>
+        </div>
+      </div>
+
+      <div class="menu-item">
+        <img src="Paan Ice Cream.jpg" alt="Paan Ice Cream" class="menu-item-image">
+        <div class="menu-item-details">
+          <h3>Paan Ice Cream</h3>
+          <p class="menu-item-description">Unique betel leaf flavored ice cream.</p>
+          <span class="menu-item-price">₹80</span>
+          <button class="order-now-btn" onclick="addToBasket('Paan Ice Cream', 80)">Order Now</button>
+        </div>
+      </div>
+
+      <div class="menu-item">
+        <img src="Fruit Custard.jpg" alt="Fruit Custard" class="menu-item-image">
+        <div class="menu-item-details">
+          <h3>Fruit Custard</h3>
+          <p class="menu-item-description">Mixed fruits in sweet custard sauce.</p>
+          <span class="menu-item-price">₹70</span>
+          <button class="order-now-btn" onclick="addToBasket('Fruit Custard', 70)">Order Now</button>
+        </div>
+      </div>
+
+      <div class="menu-item">
+        <img src="Bro's Special Dessert Platter.jpg" alt="Bro's Special Dessert Platter" class="menu-item-image">
+        <div class="menu-item-details">
+          <h3>Bro's Special Dessert Platter</h3>
+          <p class="menu-item-description">Assortment of our best desserts.</p>
+          <span class="menu-item-price">₹200</span>
+          <button class="order-now-btn" onclick="addToBasket('Bro\'s Special Dessert Platter', 200)">Order Now</button>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- JUICES SECTION -->
+<section id="juices" class="menu-section" style="display: none;">
+  <h2>Fresh Juices</h2>
+  <div class="menu-container">
+    <div class="menu-section">
+
+      <div class="menu-item">
+        <img src="Orange Juice.jpg" alt="Orange Juice" class="menu-item-image">
+        <div class="menu-item-details">
+          <h3>Orange Juice</h3>
+          <p class="menu-item-description">Freshly squeezed orange juice.</p>
+          <span class="menu-item-price">₹60</span>
+          <button class="order-now-btn" onclick="addToBasket('Orange Juice', 60)">Order Now</button>
+        </div>
+      </div>
+
+      <div class="menu-item">
+        <img src="Mosambi Juice.jpg" alt="Mosambi Juice" class="menu-item-image">
+        <div class="menu-item-details">
+          <h3>Mosambi Juice</h3>
+          <p class="menu-item-description">Sweet lime juice with a pinch of salt.</p>
+          <span class="menu-item-price">₹60</span>
+          <button class="order-now-btn" onclick="addToBasket('Mosambi Juice', 60)">Order Now</button>
+        </div>
+      </div>
+
+      <div class="menu-item">
+        <img src="Pineapple Juice.jpg" alt="Pineapple Juice" class="menu-item-image">
+        <div class="menu-item-details">
+          <h3>Pineapple Juice</h3>
+          <p class="menu-item-description">Fresh pineapple juice with mint.</p>
+          <span class="menu-item-price">₹70</span>
+          <button class="order-now-btn" onclick="addToBasket('Pineapple Juice', 70)">Order Now</button>
+        </div>
+      </div>
+
+      <div class="menu-item">
+        <img src="Watermelon Juice.jpg" alt="Watermelon Juice" class="menu-item-image">
+        <div class="menu-item-details">
+          <h3>Watermelon Juice</h3>
+          <p class="menu-item-description">Refreshing watermelon juice.</p>
+          <span class="menu-item-price">₹60</span>
+          <button class="order-now-btn" onclick="addToBasket('Watermelon Juice', 60)">Order Now</button>
+        </div>
+      </div>
+
+      <div class="menu-item">
+        <img src="Apple Juice.jpg" alt="Apple Juice" class="menu-item-image">
+        <div class="menu-item-details">
+          <h3>Apple Juice</h3>
+          <p class="menu-item-description">Fresh apple juice with cinnamon.</p>
+          <span class="menu-item-price">₹80</span>
+          <button class="order-now-btn" onclick="addToBasket('Apple Juice', 80)">Order Now</button>
+        </div>
+      </div>
+
+      <div class="menu-item">
+        <img src="Pomegranate Juice.jpg" alt="Pomegranate Juice" class="menu-item-image">
+        <div class="menu-item-details">
+          <h3>Pomegranate Juice</h3>
+          <p class="menu-item-description">Fresh pomegranate juice.</p>
+          <span class="menu-item-price">₹90</span>
+          <button class="order-now-btn" onclick="addToBasket('Pomegranate Juice', 90)">Order Now</button>
+        </div>
+      </div>
+
+      <div class="menu-item">
+        <img src="Carrot Juice.jpg" alt="Carrot Juice" class="menu-item-image">
+        <div class="menu-item-details">
+          <h3>Carrot Juice</h3>
+          <p class="menu-item-description">Fresh carrot juice with ginger.</p>
+          <span class="menu-item-price">₹70</span>
+          <button class="order-now-btn" onclick="addToBasket('Carrot Juice', 70)">Order Now</button>
+        </div>
+      </div>
+
+      <div class="menu-item">
+        <img src="Beetroot Juice.jpg" alt="Beetroot Juice" class="menu-item-image">
+        <div class="menu-item-details">
+          <h3>Beetroot Juice</h3>
+          <p class="menu-item-description">Healthy beetroot juice with lemon.</p>
+          <span class="menu-item-price">₹80</span>
+          <button class="order-now-btn" onclick="addToBasket('Beetroot Juice', 80)">Order Now</button>
+        </div>
+      </div>
+
+      <div class="menu-item">
+        <img src="Cucumber Juice.jpg" alt="Cucumber Juice" class="menu-item-image">
+        <div class="menu-item-details">
+          <h3>Cucumber Juice</h3>
+          <p class="menu-item-description">Refreshing cucumber juice with mint.</p>
+          <span class="menu-item-price">₹60</span>
+          <button class="order-now-btn" onclick="addToBasket('Cucumber Juice', 60)">Order Now</button>
+        </div>
+      </div>
+
+      <div class="menu-item">
+        <img src="Lemonade.jpg" alt="Lemonade" class="menu-item-image">
+        <div class="menu-item-details">
+          <h3>Lemonade</h3>
+          <p class="menu-item-description">Fresh lemon juice with sugar and water.</p>
+          <span class="menu-item-price">₹50</span>
+          <button class="order-now-btn" onclick="addToBasket('Lemonade', 50)">Order Now</button>
+        </div>
+      </div>
+
+      <div class="menu-item">
+        <img src="Mint Lemonade.jpg" alt="Mint Lemonade" class="menu-item-image">
+        <div class="menu-item-details">
+          <h3>Mint Lemonade</h3>
+          <p class="menu-item-description">Lemonade with fresh mint leaves.</p>
+          <span class="menu-item-price">₹60</span>
+          <button class="order-now-btn" onclick="addToBasket('Mint Lemonade', 60)">Order Now</button>
+        </div>
+      </div>
+
+      <div class="menu-item">
+        <img src="Ginger Lemonade.jpg" alt="Ginger Lemonade" class="menu-item-image">
+        <div class="menu-item-details">
+          <h3>Ginger Lemonade</h3>
+          <p class="menu-item-description">Lemonade with ginger zing.</p>
+          <span class="menu-item-price">₹70</span>
+          <button class="order-now-btn" onclick="addToBasket('Ginger Lemonade', 70)">Order Now</button>
+        </div>
+      </div>
+
+      <div class="menu-item">
+        <img src="Kiwi Juice.jpg" alt="Kiwi Juice" class="menu-item-image">
+        <div class="menu-item-details">
+          <h3>Kiwi Juice</h3>
+          <p class="menu-item-description">Fresh kiwi fruit juice.</p>
+          <span class="menu-item-price">₹100</span>
+          <button class="order-now-btn" onclick="addToBasket('Kiwi Juice', 100)">Order Now</button>
+        </div>
+      </div>
+
+      <div class="menu-item">
+        <img src="Mixed Fruit Juice.jpg" alt="Mixed Fruit Juice" class="menu-item-image">
+        <div class="menu-item-details">
+          <h3>Mixed Fruit Juice</h3>
+          <p class="menu-item-description">Blend of seasonal fruits.</p>
+          <span class="menu-item-price">₹90</span>
+          <button class="order-now-btn" onclick="addToBasket('Mixed Fruit Juice', 90)">Order Now</button>
+        </div>
+      </div>
+
+      <div class="menu-item">
+        <img src="Bro's Special Detox Juice.jpg" alt="Bro's Special Detox Juice" class="menu-item-image">
+        <div class="menu-item-details">
+          <h3>Bro's Special Detox Juice</h3>
+          <p class="menu-item-description">Our signature healthy juice blend.</p>
+          <span class="menu-item-price">₹120</span>
+          <button class="order-now-btn" onclick="addToBasket('Bro\'s Special Detox Juice', 120)">Order Now</button>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- MOCKTAILS SECTION -->
+<section id="mocktails" class="menu-section" style="display: none;">
+  <h2>Mocktails</h2>
+  <div class="menu-container">
+    <div class="menu-section">
+
+      <div class="menu-item">
+        <img src="Virgin Mojito.jpg" alt="Virgin Mojito" class="menu-item-image">
+        <div class="menu-item-details">
+          <h3>Virgin Mojito</h3>
+          <p class="menu-item-description">Lime, mint and soda refreshment.</p>
+          <span class="menu-item-price">₹90</span>
+          <button class="order-now-btn" onclick="addToBasket('Virgin Mojito', 90)">Order Now</button>
+        </div>
+      </div>
+
+      <div class="menu-item">
+        <img src="Blue Lagoon.jpg" alt="Blue Lagoon" class="menu-item-image">
+        <div class="menu-item-details">
+          <h3>Blue Lagoon</h3>
+          <p class="menu-item-description">Blue curacao with lemonade.</p>
+          <span class="menu-item-price">₹100</span>
+          <button class="order-now-btn" onclick="addToBasket('Blue Lagoon', 100)">Order Now</button>
+        </div>
+      </div>
+
+      <div class="menu-item">
+        <img src="Pina Colada Mocktail.jpg" alt="Pina Colada Mocktail" class="menu-item-image">
+        <div class="menu-item-details">
+          <h3>Pina Colada Mocktail</h3>
+          <p class="menu-item-description">Pineapple and coconut creamy mix.</p>
+          <span class="menu-item-price">₹110</span>
+          <button class="order-now-btn" onclick="addToBasket('Pina Colada Mocktail', 110)">Order Now</button>
+        </div>
+      </div>
+
+      <div class="menu-item">
+        <img src="Strawberry Daiquiri Mocktail.jpg" alt="Strawberry Daiquiri Mocktail" class="menu-item-image">
+        <div class="menu-item-details">
+          <h3>Strawberry Daiquiri Mocktail</h3>
+          <p class="menu-item-description">Sweet strawberry blended drink.</p>
+          <span class="menu-item-price">₹120</span>
+          <button class="order-now-btn" onclick="addToBasket('Strawberry Daiquiri Mocktail', 120)">Order Now</button>
+        </div>
+      </div>
+
+      <div class="menu-item">
+        <img src="Mango Margarita Mocktail.jpg" alt="Mango Margarita Mocktail" class="menu-item-image">
+        <div class="menu-item-details">
+          <h3>Mango Margarita Mocktail</h3>
+          <p class="menu-item-description">Mango puree with lime and salt rim.</p>
+          <span class="menu-item-price">₹120</span>
+          <button class="order-now-btn" onclick="addToBasket('Mango Margarita Mocktail', 120)">Order Now</button>
+        </div>
+      </div>
+
+      <div class="menu-item">
+        <img src="Kiwi Cooler.jpg" alt="Kiwi Cooler" class="menu-item-image">
+        <div class="menu-item-details">
+          <h3>Kiwi Cooler</h3>
+          <p class="menu-item-description">Refreshing kiwi and mint drink.</p>
+          <span class="menu-item-price">₹130</span>
+          <button class="order-now-btn" onclick="addToBasket('Kiwi Cooler', 130)">Order Now</button>
+        </div>
+      </div>
+
+      <div class="menu-item">
+        <img src="Lychee Mint Mocktail.jpg" alt="Lychee Mint Mocktail" class="menu-item-image">
+        <div class="menu-item-details">
+          <h3>Lychee Mint Mocktail</h3>
+          <p class="menu-item-description">Lychee with fresh mint and soda.</p>
+          <span class="menu-item-price">₹140</span>
+          <button class="order-now-btn" onclick="addToBasket('Lychee Mint Mocktail', 140)">Order Now</button>
+        </div>
+      </div>
+
+      <div class="menu-item">
+        <img src="Passion Fruit Mocktail.jpg" alt="Passion Fruit Mocktail" class="menu-item-image">
+        <div class="menu-item-details">
+          <h3>Passion Fruit Mocktail</h3>
+          <p class="menu-item-description">Tropical passion fruit delight.</p>
+          <span class="menu-item-price">₹150</span>
+          <button class="order-now-btn" onclick="addToBasket('Passion Fruit Mocktail', 150)">Order Now</button>
+        </div>
+      </div>
+
+      <div class="menu-item">
+        <img src="Cucumber Cooler.jpg" alt="Cucumber Cooler" class="menu-item-image">
+        <div class="menu-item-details">
+          <h3>Cucumber Cooler</h3>
+          <p class="menu-item-description">Refreshing cucumber and lime drink.</p>
+          <span class="menu-item-price">₹110</span>
+          <button class="order-now-btn" onclick="addToBasket('Cucumber Cooler', 110)">Order Now</button>
+        </div>
+      </div>
+
+      <div class="menu-item">
+        <img src="Berry Blast.jpg" alt="Berry Blast" class="menu-item-image">
+        <div class="menu-item-details">
+          <h3>Berry Blast</h3>
+          <p class="menu-item-description">Mixed berries blended with soda.</p>
+          <span class="menu-item-price">₹130</span>
+          <button class="order-now-btn" onclick="addToBasket('Berry Blast', 130)">Order Now</button>
+        </div>
+      </div>
+
+      <div class="menu-item">
+        <img src="Green Apple Fizz.jpg" alt="Green Apple Fizz" class="menu-item-image">
+        <div class="menu-item-details">
+          <h3>Green Apple Fizz</h3>
+          <p class="menu-item-description">Tart green apple with sparkling water.</p>
+          <span class="menu-item-price">₹120</span>
+          <button class="order-now-btn" onclick="addToBasket('Green Apple Fizz', 120)">Order Now</button>
+        </div>
+      </div>
+
+      <div class="menu-item">
+        <img src="Tropical Sunrise.jpg" alt="Tropical Sunrise" class="menu-item-image">
+        <div class="menu-item-details">
+          <h3>Tropical Sunrise</h3>
+          <p class="menu-item-description">Layered orange and grenadine drink.</p>
+          <span class="menu-item-price">₹140</span>
+          <button class="order-now-btn" onclick="addToBasket('Tropical Sunrise', 140)">Order Now</button>
+        </div>
+      </div>
+
+      <div class="menu-item">
+        <img src="Watermelon Basil Smash.jpg" alt="Watermelon Basil Smash" class="menu-item-image">
+        <div class="menu-item-details">
+          <h3>Watermelon Basil Smash</h3>
+          <p class="menu-item-description">Fresh watermelon with basil leaves.</p>
+          <span class="menu-item-price">₹130</span>
+          <button class="order-now-btn" onclick="addToBasket('Watermelon Basil Smash', 130)">Order Now</button>
+        </div>
+      </div>
+
+      <div class="menu-item">
+        <img src="Ginger Peach Fizz.jpg" alt="Ginger Peach Fizz" class="menu-item-image">
+        <div class="menu-item-details">
+          <h3>Ginger Peach Fizz</h3>
+          <p class="menu-item-description">Peach nectar with ginger ale.</p>
+          <span class="menu-item-price">₹140</span>
+          <button class="order-now-btn" onclick="addToBasket('Ginger Peach Fizz', 140)">Order Now</button>
+        </div>
+      </div>
+
+      <div class="menu-item">
+        <img src="Bro's Signature Mocktail.jpg" alt="Bro's Signature Mocktail" class="menu-item-image">
+        <div class="menu-item-details">
+          <h3>Bro's Signature Mocktail</h3>
+          <p class="menu-item-description">Our special secret recipe mocktail.</p>
+          <span class="menu-item-price">₹160</span>
+          <button class="order-now-btn" onclick="addToBasket('Bro\'s Signature Mocktail', 160)">Order Now</button>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- MILKSHAKES SECTION -->
+<section id="milkshakes" class="menu-section" style="display: none;">
+  <h2>Milkshakes</h2>
+  <div class="menu-container">
+    <div class="menu-section">
+
+      <div class="menu-item">
+        <img src="Vanilla Milkshake.jpg" alt="Vanilla Milkshake" class="menu-item-image">
+        <div class="menu-item-details">
+          <h3>Vanilla Milkshake</h3>
+          <p class="menu-item-description">Classic vanilla flavored milkshake.</p>
+          <span class="menu-item-price">₹90</span>
+          <button class="order-now-btn" onclick="addToBasket('Vanilla Milkshake', 90)">Order Now</button>
+        </div>
+      </div>
+
+      <div class="menu-item">
+        <img src="Chocolate Milkshake.jpg" alt="Chocolate Milkshake" class="menu-item-image">
+        <div class="menu-item-details">
+          <h3>Chocolate Milkshake</h3>
+          <p class="menu-item-description">Rich chocolate milkshake.</p>
+          <span class="menu-item-price">₹100</span>
+          <button class="order-now-btn" onclick="addToBasket('Chocolate Milkshake', 100)">Order Now</button>
+        </div>
+      </div>
+
+      <div class="menu-item">
+        <img src="Strawberry Milkshake.jpg" alt="Strawberry Milkshake" class="menu-item-image">
+        <div class="menu-item-details">
+          <h3>Strawberry Milkshake</h3>
+          <p class="menu-item-description">Fresh strawberry milkshake.</p>
+          <span class="menu-item-price">₹110</span>
+          <button class="order-now-btn" onclick="addToBasket('Strawberry Milkshake', 110)">Order Now</button>
+        </div>
+      </div>
+
+      <div class="menu-item">
+        <img src="Mango Milkshake.jpg" alt="Mango Milkshake" class="menu-item-image">
+        <div class="menu-item-details">
+          <h3>Mango Milkshake</h3>
+          <p class="menu-item-description">Sweet mango milkshake.</p>
+          <span class="menu-item-price">₹110</span>
+          <button class="order-now-btn" onclick="addToBasket('Mango Milkshake', 110)">Order Now</button>
+        </div>
+      </div>
+
+      <div class="menu-item">
+        <img src="Banana Milkshake.jpg" alt="Banana Milkshake" class="menu-item-image">
+        <div class="menu-item-details">
+          <h3>Banana Milkshake</h3>
+          <p class="menu-item-description">Creamy banana milkshake.</p>
+          <span class="menu-item-price">₹100</span>
+          <button class="order-now-btn" onclick="addToBasket('Banana Milkshake', 100)">Order Now</button>
+        </div>
+      </div>
+
+      <div class="menu-item">
+        <img src="Oreo Milkshake.jpg" alt="Oreo Milkshake" class="menu-item-image">
+        <div class="menu-item-details">
+          <h3>Oreo Milkshake</h3>
+          <p class="menu-item-description">Crushed Oreo cookies in milkshake.</p>
+          <span class="menu-item-price">₹120</span>
+          <button class="order-now-btn" onclick="addToBasket('Oreo Milkshake', 120)">Order Now</button>
+        </div>
+      </div>
+
+      <div class="menu-item">
+        <img src="Butterscotch Milkshake.jpg" alt="Butterscotch Milkshake" class="menu-item-image">
+        <div class="menu-item-details">
+          <h3>Butterscotch Milkshake</h3>
+          <p class="menu-item-description">Sweet butterscotch flavored shake.</p>
+          <span class="menu-item-price">₹120</span>
+          <button class="order-now-btn" onclick="addToBasket('Butterscotch Milkshake', 120)">Order Now</button>
+        </div>
+      </div>
+
+      <div class="menu-item">
+        <img src="KitKat Milkshake.jpg" alt="KitKat Milkshake" class="menu-item-image">
+        <div class="menu-item-details">
+          <h3>KitKat Milkshake</h3>
+          <p class="menu-item-description">Chocolate KitKat pieces in milkshake.</p>
+          <span class="menu-item-price">₹130</span>
+          <button class="order-now-btn" onclick="addToBasket('KitKat Milkshake', 130)">Order Now</button>
+        </div>
+      </div>
+
+      <div class="menu-item">
+        <img src="Coffee Milkshake.jpg" alt="Coffee Milkshake" class="menu-item-image">
+        <div class="menu-item-details">
+          <h3>Coffee Milkshake</h3>
+          <p class="menu-item-description">Cold coffee milkshake.</p>
+          <span class="menu-item-price">₹110</span>
+          <button class="order-now-btn" onclick="addToBasket('Coffee Milkshake', 110)">Order Now</button>
+        </div>
+      </div>
+
+      <div class="menu-item">
+        <img src="Pista Milkshake.jpg" alt="Pista Milkshake" class="menu-item-image">
+        <div class="menu-item-details">
+          <h3>Pista Milkshake</h3>
+          <p class="menu-item-description">Pistachio flavored milkshake.</p>
+          <span class="menu-item-price">₹130</span>
+          <button class="order-now-btn" onclick="addToBasket('Pista Milkshake', 130)">Order Now</button>
+        </div>
+      </div>
+
+      <div class="menu-item">
+        <img src="Badam Milkshake.jpg" alt="Badam Milkshake" class="menu-item-image">
+        <div class="menu-item-details">
+          <h3>Badam Milkshake</h3>
+          <p class="menu-item-description">Almond flavored healthy milkshake.</p>
+          <span class="menu-item-price">₹140</span>
+          <button class="order-now-btn" onclick="addToBasket('Badam Milkshake', 140)">Order Now</button>
+        </div>
+      </div>
+
+      <div class="menu-item">
+        <img src="Chocolate Brownie Milkshake.jpg" alt="Chocolate Brownie Milkshake" class="menu-item-image">
+        <div class="menu-item-details">
+          <h3>Chocolate Brownie Milkshake</h3>
+          <p class="menu-item-description">Brownie pieces in chocolate milkshake.</p>
+          <span class="menu-item-price">₹150</span>
+          <button class="order-now-btn" onclick="addToBasket('Chocolate Brownie Milkshake', 150)">Order Now</button>
+        </div>
+      </div>
+
+      <div class="menu-item">
+        <img src="Nutella Milkshake.jpg" alt="Nutella Milkshake" class="menu-item-image">
+        <div class="menu-item-details">
+          <h3>Nutella Milkshake</h3>
+          <p class="menu-item-description">Creamy Nutella hazelnut milkshake.</p>
+          <span class="menu-item-price">₹160</span>
+          <button class="order-now-btn" onclick="addToBasket('Nutella Milkshake', 160)">Order Now</button>
+        </div>
+      </div>
+
+      <div class="menu-item">
+        <img src="Caramel Popcorn Milkshake.jpg" alt="Caramel Popcorn Milkshake" class="menu-item-image">
+        <div class="menu-item-details">
+          <h3>Caramel Popcorn Milkshake</h3>
+          <p class="menu-item-description">Caramel popcorn topped milkshake.</p>
+          <span class="menu-item-price">₹170</span>
+          <button class="order-now-btn" onclick="addToBasket('Caramel Popcorn Milkshake', 170)">Order Now</button>
+        </div>
+      </div>
+
+      <div class="menu-item">
+        <img src="Bro's Special Freakshake.jpg" alt="Bro's Special Freakshake" class="menu-item-image">
+        <div class="menu-item-details">
+          <h3>Bro's Special Freakshake</h3>
+          <p class="menu-item-description">Over-the-top loaded milkshake.</p>
+          <span class="menu-item-price">₹200</span>
+          <button class="order-now-btn" onclick="addToBasket('Bro\'s Special Freakshake', 200)">Order Now</button>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- COOL BEVERAGES SECTION -->
+<section id="cool-beverages" class="menu-section" style="display: none;">
+  <h2>Cool Beverages</h2>
+  <div class="menu-container">
+    <div class="menu-section">
+
+      <div class="menu-item">
+        <img src="Masala Soda.jpg" alt="Masala Soda" class="menu-item-image">
+        <div class="menu-item-details">
+          <h3>Masala Soda</h3>
+          <p class="menu-item-description">Spiced soda with lemon and masala.</p>
+          <span class="menu-item-price">₹40</span>
+          <button class="order-now-btn" onclick="addToBasket('Masala Soda', 40)">Order Now</button>
+        </div>
+      </div>
+
+      <div class="menu-item">
+        <img src="Nimbu Soda.jpg" alt="Nimbu Soda" class="menu-item-image">
+        <div class="menu-item-details">
+          <h3>Nimbu Soda</h3>
+          <p class="menu-item-description">Lemon soda with mint.</p>
+          <span class="menu-item-price">₹50</span>
+          <button class="order-now-btn" onclick="addToBasket('Nimbu Soda', 50)">Order Now</button>
+        </div>
+      </div>
+
+      <div class="menu-item">
+        <img src="Thums Up.jpg" alt="Thums Up" class="menu-item-image">
+        <div class="menu-item-details">
+          <h3>Thums Up</h3>
+          <p class="menu-item-description">Classic Indian cola drink.</p>
+          <span class="menu-item-price">₹30</span>
+          <button class="order-now-btn" onclick="addToBasket('Thums Up', 30)">Order Now</button>
+        </div>
+      </div>
+
+      <div class="menu-item">
+        <img src="Sprite.jpg" alt="Sprite" class="menu-item-image">
+        <div class="menu-item-details">
+          <h3>Sprite</h3>
+          <p class="menu-item-description">Lemon-lime flavored soda.</p>
+          <span class="menu-item-price">₹30</span>
+          <button class="order-now-btn" onclick="addToBasket('Sprite', 30)">Order Now</button>
+        </div>
+      </div>
+
+      <div class="menu-item">
+        <img src="Coca Cola.jpg" alt="Coca Cola" class="menu-item-image">
+        <div class="menu-item-details">
+          <h3>Coca Cola</h3>
+          <p class="menu-item-description">Classic cola drink.</p>
+          <span class="menu-item-price">₹30</span>
+          <button class="order-now-btn" onclick="addToBasket('Coca Cola', 30)">Order Now</button>
+        </div>
+      </div>
+
+      <div class="menu-item">
+        <img src="Fanta.jpg" alt="Fanta" class="menu-item-image">
+        <div class="menu-item-details">
+          <h3>Fanta</h3>
+          <p class="menu-item-description">Orange flavored soda.</p>
+          <span class="menu-item-price">₹30</span>
+          <button class="order-now-btn" onclick="addToBasket('Fanta', 30)">Order Now</button>
+        </div>
+      </div>
+
+      <div class="menu-item">
+        <img src="Mountain Dew.jpg" alt="Mountain Dew" class="menu-item-image">
+        <div class="menu-item-details">
+          <h3>Mountain Dew</h3>
+          <p class="menu-item-description">Citrus flavored soda.</p>
+          <span class="menu-item-price">₹30</span>
+          <button class="order-now-btn" onclick="addToBasket('Mountain Dew', 30)">Order Now</button>
+        </div>
+      </div>
+
+      <div class="menu-item">
+        <img src="Limca.jpg" alt="Limca" class="menu-item-image">
+        <div class="menu-item-details">
+          <h3>Limca</h3>
+          <p class="menu-item-description">Lemon-lime drink.</p>
+          <span class="menu-item-price">₹30</span>
+          <button class="order-now-btn" onclick="addToBasket('Limca', 30)">Order Now</button>
+        </div>
+      </div>
+
+      <div class="menu-item">
+        <img src="7up.jpg" alt="7up" class="menu-item-image">
+        <div class="menu-item-details">
+          <h3>7up</h3>
+          <p class="menu-item-description">Lemon-lime soda.</p>
+          <span class="menu-item-price">₹30</span>
+          <button class="order-now-btn" onclick="addToBasket('7up', 30)">Order Now</button>
+        </div>
+      </div>
+
+      <div class="menu-item">
+        <img src="Mirinda.jpg" alt="Mirinda" class="menu-item-image">
+        <div class="menu-item-details">
+          <h3>Mirinda</h3>
+          <p class="menu-item-description">Orange flavored soda.</p>
+          <span class="menu-item-price">₹30</span>
+          <button class="order-now-btn" onclick="addToBasket('Mirinda', 30)">Order Now</button>
+        </div>
+      </div>
+
+      <div class="menu-item">
+        <img src="Pepsi.jpg" alt="Pepsi" class="menu-item-image">
+        <div class="menu-item-details">
+          <h3>Pepsi</h3>
+          <p class="menu-item-description">Cola flavored carbonated drink.</p>
+          <span class="menu-item-price">₹30</span>
+          <button class="order-now-btn" onclick="addToBasket('Pepsi', 30)">Order Now</button>
+        </div>
+      </div>
+
+      <div class="menu-item">
+        <img src="Slice.jpg" alt="Slice" class="menu-item-image">
+        <div class="menu-item-details">
+          <h3>Slice</h3>
+          <p class="menu-item-description">Mango flavored drink.</p>
+          <span class="menu-item-price">₹40</span>
+          <button class="order-now-btn" onclick="addToBasket('Slice', 40)">Order Now</button>
+        </div>
+      </div>
+
+      <div class="menu-item">
+        <img src="Maaza.jpg" alt="Maaza" class="menu-item-image">
+        <div class="menu-item-details">
+          <h3>Maaza</h3>
+          <p class="menu-item-description">Mango fruit drink.</p>
+          <span class="menu-item-price">₹40</span>
+          <button class="order-now-btn" onclick="addToBasket('Maaza', 40)">Order Now</button>
+        </div>
+      </div>
+
+      <div class="menu-item">
+        <img src="Frooti.jpg" alt="Frooti" class="menu-item-image">
+        <div class="menu-item-details">
+          <h3>Frooti</h3>
+          <p class="menu-item-description">Mango flavored tetrapack drink.</p>
+          <span class="menu-item-price">₹40</span>
+          <button class="order-now-btn" onclick="addToBasket('Frooti', 40)">Order Now</button>
+        </div>
+      </div>
+
+      <div class="menu-item">
+        <img src="Bro's Special Cooler.jpg" alt="Bro's Special Cooler" class="menu-item-image">
+        <div class="menu-item-details">
+          <h3>Bro's Special Cooler</h3>
+          <p class="menu-item-description">Our signature refreshing drink.</p>
+          <span class="menu-item-price">₹80</span>
+          <button class="order-now-btn" onclick="addToBasket('Bro\'s Special Cooler', 80)">Order Now</button>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- COMBO MEALS SECTION -->
+<section id="combo-meals" class="menu-section" style="display: none;">
+  <h2>Combo Meals</h2>
+  <div class="menu-container">
+    <div class="menu-section">
+
+      <div class="menu-item">
+        <img src="Veg Combo Meal.jpg" alt="Veg Combo Meal" class="menu-item-image">
+        <div class="menu-item-details">
+          <h3>Veg Combo Meal</h3>
+          <p class="menu-item-description">2 Veg Curries + Rice + Roti + Salad + Dessert</p>
+          <span class="menu-item-price">₹180</span>
+          <button class="order-now-btn" onclick="addToBasket('Veg Combo Meal', 180)">Order Now</button>
+        </div>
+      </div>
+
+      <div class="menu-item">
+        <img src="Non-Veg Combo Meal.jpg" alt="Non-Veg Combo Meal" class="menu-item-image">
+        <div class="menu-item-details">
+          <h3>Non-Veg Combo Meal</h3>
+          <p class="menu-item-description">2 Non-Veg Curries + Rice + Roti + Salad + Dessert</p>
+          <span class="menu-item-price">₹220</span>
+          <button class="order-now-btn" onclick="addToBasket('Non-Veg Combo Meal', 220)">Order Now</button>
+        </div>
+      </div>
+
+      <div class="menu-item">
+        <img src="Chinese Combo Meal.jpg" alt="Chinese Combo Meal" class="menu-item-image">
+        <div class="menu-item-details">
+          <h3>Chinese Combo Meal</h3>
+          <p class="menu-item-description">Starter + Noodles/Fried Rice + Manchurian + Drink</p>
+          <span class="menu-item-price">₹200</span>
+          <button class="order-now-btn" onclick="addToBasket('Chinese Combo Meal', 200)">Order Now</button>
+        </div>
+      </div>
+
+      <div class="menu-item">
+        <img src="Continental Combo Meal.jpg" alt="Continental Combo Meal" class="menu-item-image">
+        <div class="menu-item-details">
+          <h3>Continental Combo Meal</h3>
+          <p class="menu-item-description">Pasta/Pizza + Garlic Bread + Drink + Dessert</p>
+          <span class="menu-item-price">₹250</span>
+          <button class="order-now-btn" onclick="addToBasket('Continental Combo Meal', 250)">Order Now</button>
+        </div>
+      </div>
+
+      <div class="menu-item">
+        <img src="Family Combo Meal.jpg" alt="Family Combo Meal" class="menu-item-image">
+        <div class="menu-item-details">
+          <h3>Family Combo Meal</h3>
+          <p class="menu-item-description">4 Curries (Veg/Non-Veg) + Rice + Rotis + Salad + Desserts</p>
+          <span class="menu-item-price">₹450</span>
+          <button class="order-now-btn" onclick="addToBasket('Family Combo Meal', 450)">Order Now</button>
+        </div>
+      </div>
+
+      <div class="menu-item">
+        <img src="Kids Combo Meal.jpg" alt="Kids Combo Meal" class="menu-item-image">
+        <div class="menu-item-details">
+          <h3>Kids Combo Meal</h3>
+          <p class="menu-item-description">Mini Burger + Fries + Juice + Ice Cream</p>
+          <span class="menu-item-price">₹150</span>
+          <button class="order-now-btn" onclick="addToBasket('Kids Combo Meal', 150)">Order Now</button>
+        </div>
+      </div>
+
+      <div class="menu-item">
+        <img src="Biryani Combo Meal.jpg" alt="Biryani Combo Meal" class="menu-item-image">
+        <div class="menu-item-details">
+          <h3>Biryani Combo Meal</h3>
+          <p class="menu-item-description">Biryani + Raita + Salad + Drink</p>
+          <span class="menu-item-price">₹180</span>
+          <button class="order-now-btn" onclick="addToBasket('Biryani Combo Meal', 180)">Order Now</button>
+        </div>
+      </div>
+
+      <div class="menu-item">
+        <img src="Breakfast Combo.jpg" alt="Breakfast Combo" class="menu-item-image">
+        <div class="menu-item-details">
+          <h3>Breakfast Combo</h3>
+          <p class="menu-item-description">Sandwich + Juice + Coffee/Tea</p>
+          <span class="menu-item-price">₹120</span>
+          <button class="order-now-btn" onclick="addToBasket('Breakfast Combo', 120)">Order Now</button>
+        </div>
+      </div>
+
+      <div class="menu-item">
+        <img src="Healthy Combo Meal.jpg" alt="Healthy Combo Meal" class="menu-item-image">
+        <div class="menu-item-details">
+          <h3>Healthy Combo Meal</h3>
+          <p class="menu-item-description">Salad + Soup + Juice + Fruit</p>
+          <span class="menu-item-price">₹160</span>
+          <button class="order-now-btn" onclick="addToBasket('Healthy Combo Meal', 160)">Order Now</button>
+        </div>
+      </div>
+
+      <div class="menu-item">
+        <img src="Bro's Special Mega Combo.jpg" alt="Bro's Special Mega Combo" class="menu-item-image">
+        <div class="menu-item-details">
+          <h3>Bro's Special Mega Combo</h3>
+          <p class="menu-item-description">Starter + Main Course + Bread + Dessert + Drink</p>
+          <span class="menu-item-price">₹300</span>
+          <button class="order-now-btn" onclick="addToBasket('Bro\'s Special Mega Combo', 300)">Order Now</button>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Shopping Cart -->
+<div class="cart-container">
+  <div class="cart-icon" onclick="toggleCart()">
+    <i class="fas fa-shopping-cart"></i>
+    <span class="cart-count">0</span>
+  </div>
+  <div class="cart-dropdown" id="cartDropdown">
+    <h3>Your Order</h3>
+    <div class="cart-items" id="cartItems">
+      <!-- Cart items will be added here dynamically -->
+    </div>
+    <div class="cart-total">
+      <span>Total: ₹<span id="cartTotal">0</span></span>
+    </div>
+    <button class="checkout-btn" onclick="checkout()">Checkout</button>
+  </div>
+</div>
+
+<script src="proj.js"></script>
+</body>
+</html>
